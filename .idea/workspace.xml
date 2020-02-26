@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YLfd2tH7HNKj4VVtnPulhbV5zw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.marcusscalet.ecommerce.iniciandocomjpa" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ConsultandoRegistrosTest">
+    <configuration name="IniciarUnidadeDePersistencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.util.IniciarUnidadeDePersistencia" />
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marcusscalet.ecommerce.util.IniciarUnidadeDePersistencia" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultandoRegistrosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marcusscalet.ecommerce.iniciandocomjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa.ConsultandoRegistrosTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultandoRegistrosTest.atualizarReferencia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marcusscalet.ecommerce.iniciandocomjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa.ConsultandoRegistrosTest" />
+      <option name="METHOD_NAME" value="atualizarReferencia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultandoRegistrosTest.buscarPorIdentificador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marcusscalet.ecommerce.iniciandocomjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa.ConsultandoRegistrosTest" />
+      <option name="METHOD_NAME" value="buscarPorIdentificador" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algaworks-ecommerce [clean package]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
+      <item itemvalue="Application.IniciarUnidadeDePersistencia" />
+      <item itemvalue="JUnit.ConsultandoRegistrosTest.buscarPorIdentificador" />
+      <item itemvalue="JUnit.ConsultandoRegistrosTest" />
+      <item itemvalue="JUnit.ConsultandoRegistrosTest.atualizarReferencia" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConsultandoRegistrosTest" />
+        <item itemvalue="JUnit.ConsultandoRegistrosTest.atualizarReferencia" />
+        <item itemvalue="JUnit.ConsultandoRegistrosTest.buscarPorIdentificador" />
+        <item itemvalue="Application.IniciarUnidadeDePersistencia" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="" />
+      <created>1582726878609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582726878609</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1517" y="190" key="#ConsultandoRegistrosTest" timestamp="1582738160442">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1517" y="190" key="#ConsultandoRegistrosTest/0.0.2560.1040@0.0.2560.1040" timestamp="1582738160442" />
+    <state x="1374" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582727374353">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1374" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1582727374353" />
+    <state x="1725" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1582727666028">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1725" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1582727666028" />
+    <state width="1234" height="369" key="GridCell.Tab.0.bottom" timestamp="1582738395569">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="369" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1582738395569" />
+    <state width="1234" height="369" key="GridCell.Tab.0.center" timestamp="1582738395569">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="369" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1582738395569" />
+    <state width="1234" height="369" key="GridCell.Tab.0.left" timestamp="1582738395569">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="369" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1582738395569" />
+    <state width="1234" height="369" key="GridCell.Tab.0.right" timestamp="1582738395569">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="369" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1582738395569" />
+    <state x="1421" y="166" key="SettingsEditor" timestamp="1582735375352">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1421" y="166" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1582735375352" />
+    <state x="1736" y="301" key="chooseDestDirectoryDialog" timestamp="1582738373413">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1736" y="301" key="chooseDestDirectoryDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1582738373413" />
+    <state x="1551" y="220" width="737" height="606" key="find.popup" timestamp="1582735382811">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1551" y="220" width="737" height="606" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1582735382811" />
+    <state x="1626" y="142" key="refactoring.ChangeSignatureDialog" timestamp="1582732493295">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1626" y="142" key="refactoring.ChangeSignatureDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1582732493295" />
+    <state x="1576" y="244" key="run.anything.popup" timestamp="1582732291174">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1576" y="244" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1582732291174" />
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1582728668175">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1582728668175" />
+  </component>
+</project>
