@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="" />
+    <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YLfd2tH7HNKj4VVtnPulhbV5zw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,6 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -33,20 +43,7 @@
       <recent name="com.marcusscalet.ecommerce.iniciandocomjpa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConsultandoRegistrosTest">
-    <configuration name="IniciarUnidadeDePersistencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.util.IniciarUnidadeDePersistencia" />
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.marcusscalet.ecommerce.util.IniciarUnidadeDePersistencia" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.OperacoesComTransacaoTest.atualizarObjeto">
     <configuration name="ConsultandoRegistrosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -78,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsultandoRegistrosTest.buscarPorIdentificador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OperacoesComTransacaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +84,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa.ConsultandoRegistrosTest" />
-      <option name="METHOD_NAME" value="buscarPorIdentificador" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa.OperacoesComTransacaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperacoesComTransacaoTest.atualizarObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marcusscalet.ecommerce.iniciandocomjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa.OperacoesComTransacaoTest" />
+      <option name="METHOD_NAME" value="atualizarObjeto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperacoesComTransacaoTest.removerObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marcusscalet.ecommerce.iniciandocomjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa.OperacoesComTransacaoTest" />
+      <option name="METHOD_NAME" value="removerObjeto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,17 +150,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
-      <item itemvalue="Application.IniciarUnidadeDePersistencia" />
-      <item itemvalue="JUnit.ConsultandoRegistrosTest.buscarPorIdentificador" />
       <item itemvalue="JUnit.ConsultandoRegistrosTest" />
       <item itemvalue="JUnit.ConsultandoRegistrosTest.atualizarReferencia" />
+      <item itemvalue="JUnit.OperacoesComTransacaoTest" />
+      <item itemvalue="JUnit.OperacoesComTransacaoTest.removerObjeto" />
+      <item itemvalue="JUnit.OperacoesComTransacaoTest.atualizarObjeto" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OperacoesComTransacaoTest.atualizarObjeto" />
+        <item itemvalue="JUnit.OperacoesComTransacaoTest.removerObjeto" />
+        <item itemvalue="JUnit.OperacoesComTransacaoTest" />
         <item itemvalue="JUnit.ConsultandoRegistrosTest" />
         <item itemvalue="JUnit.ConsultandoRegistrosTest.atualizarReferencia" />
-        <item itemvalue="JUnit.ConsultandoRegistrosTest.buscarPorIdentificador" />
-        <item itemvalue="Application.IniciarUnidadeDePersistencia" />
       </list>
     </recent_temporary>
   </component>
@@ -162,22 +192,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1725" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1582727666028" />
-    <state width="1234" height="369" key="GridCell.Tab.0.bottom" timestamp="1582738395569">
+    <state width="1234" height="308" key="GridCell.Tab.0.bottom" timestamp="1582746035006">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="369" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1582738395569" />
-    <state width="1234" height="369" key="GridCell.Tab.0.center" timestamp="1582738395569">
+    <state width="1234" height="308" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1582746035006" />
+    <state width="1234" height="308" key="GridCell.Tab.0.center" timestamp="1582746035006">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="369" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1582738395569" />
-    <state width="1234" height="369" key="GridCell.Tab.0.left" timestamp="1582738395569">
+    <state width="1234" height="308" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1582746035006" />
+    <state width="1234" height="308" key="GridCell.Tab.0.left" timestamp="1582746035006">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="369" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1582738395569" />
-    <state width="1234" height="369" key="GridCell.Tab.0.right" timestamp="1582738395569">
+    <state width="1234" height="308" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1582746035006" />
+    <state width="1234" height="308" key="GridCell.Tab.0.right" timestamp="1582746035006">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="369" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1582738395569" />
+    <state width="1234" height="308" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1582746035006" />
     <state x="1421" y="166" key="SettingsEditor" timestamp="1582735375352">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
