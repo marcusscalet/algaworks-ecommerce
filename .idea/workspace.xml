@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/SexoCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -26,7 +34,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YLfd2tH7HNKj4VVtnPulhbV5zw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,14 +46,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.marcusscalet.ecommerce.iniciandocomjpa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OperacoesComTransacaoTest.atualizarObjeto">
+  <component name="RunManager" selected="JUnit.MapeamentoObjetoEmbutidoTest">
     <configuration name="ConsultandoRegistrosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -59,7 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsultandoRegistrosTest.atualizarReferencia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapeamentoObjetoEmbutidoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -68,9 +78,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa.ConsultandoRegistrosTest" />
-      <option name="METHOD_NAME" value="atualizarReferencia" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa.MapeamentoObjetoEmbutidoTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperacoesComTransacaoTest.atualizarObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeiroCrudTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -99,14 +108,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa.OperacoesComTransacaoTest" />
-      <option name="METHOD_NAME" value="atualizarObjeto" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa.PrimeiroCrudTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperacoesComTransacaoTest.removerObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeiroCrudTest.removerRegistro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +123,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa.OperacoesComTransacaoTest" />
-      <option name="METHOD_NAME" value="removerObjeto" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.iniciandocomjpa.PrimeiroCrudTest" />
+      <option name="METHOD_NAME" value="removerRegistro" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,20 +157,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
+      <item itemvalue="JUnit.PrimeiroCrudTest.removerRegistro" />
       <item itemvalue="JUnit.ConsultandoRegistrosTest" />
-      <item itemvalue="JUnit.ConsultandoRegistrosTest.atualizarReferencia" />
       <item itemvalue="JUnit.OperacoesComTransacaoTest" />
-      <item itemvalue="JUnit.OperacoesComTransacaoTest.removerObjeto" />
-      <item itemvalue="JUnit.OperacoesComTransacaoTest.atualizarObjeto" />
+      <item itemvalue="JUnit.PrimeiroCrudTest" />
+      <item itemvalue="JUnit.MapeamentoObjetoEmbutidoTest" />
+      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OperacoesComTransacaoTest.atualizarObjeto" />
-        <item itemvalue="JUnit.OperacoesComTransacaoTest.removerObjeto" />
+        <item itemvalue="JUnit.MapeamentoObjetoEmbutidoTest" />
+        <item itemvalue="JUnit.PrimeiroCrudTest" />
         <item itemvalue="JUnit.OperacoesComTransacaoTest" />
         <item itemvalue="JUnit.ConsultandoRegistrosTest" />
-        <item itemvalue="JUnit.ConsultandoRegistrosTest.atualizarReferencia" />
+        <item itemvalue="JUnit.PrimeiroCrudTest.removerRegistro" />
       </list>
     </recent_temporary>
   </component>
@@ -188,49 +196,72 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1374" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1582727374353" />
-    <state x="1725" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1582727666028">
+    <state x="1373" y="100" width="1094" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583110111515">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1725" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1582727666028" />
-    <state width="1234" height="308" key="GridCell.Tab.0.bottom" timestamp="1582746035006">
+    <state x="1373" y="100" width="1094" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1583110111515" />
+    <state x="1684" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584916408393">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="308" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1582746035006" />
-    <state width="1234" height="308" key="GridCell.Tab.0.center" timestamp="1582746035006">
+    <state x="1684" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1584916408393" />
+    <state x="1725" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1582761952686">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="308" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1582746035006" />
-    <state width="1234" height="308" key="GridCell.Tab.0.left" timestamp="1582746035006">
+    <state x="1725" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1582761952686" />
+    <state width="1234" height="304" key="GridCell.Tab.0.bottom" timestamp="1585014432969">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="308" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1582746035006" />
-    <state width="1234" height="308" key="GridCell.Tab.0.right" timestamp="1582746035006">
+    <state width="1234" height="304" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1585014432969" />
+    <state width="1234" height="304" key="GridCell.Tab.0.center" timestamp="1585014432969">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="308" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1582746035006" />
-    <state x="1421" y="166" key="SettingsEditor" timestamp="1582735375352">
+    <state width="1234" height="304" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1585014432969" />
+    <state width="1234" height="304" key="GridCell.Tab.0.left" timestamp="1585014432969">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1421" y="166" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1582735375352" />
+    <state width="1234" height="304" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1585014432969" />
+    <state width="1234" height="304" key="GridCell.Tab.0.right" timestamp="1585014432969">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="304" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1585014432969" />
+    <state x="1421" y="166" key="SettingsEditor" timestamp="1584913581037">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1421" y="166" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1584913581037" />
     <state x="1736" y="301" key="chooseDestDirectoryDialog" timestamp="1582738373413">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1736" y="301" key="chooseDestDirectoryDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1582738373413" />
-    <state x="1551" y="220" width="737" height="606" key="find.popup" timestamp="1582735382811">
+    <state x="1616" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585615235110">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1551" y="220" width="737" height="606" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1582735382811" />
+    <state x="1616" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585615235110" />
+    <state x="1551" y="220" width="737" height="606" key="find.popup" timestamp="1584916369095">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1551" y="220" width="737" height="606" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1584916369095" />
     <state x="1626" y="142" key="refactoring.ChangeSignatureDialog" timestamp="1582732493295">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1626" y="142" key="refactoring.ChangeSignatureDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1582732493295" />
-    <state x="1576" y="244" key="run.anything.popup" timestamp="1582732291174">
+    <state x="1576" y="244" key="run.anything.popup" timestamp="1585012873165">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1576" y="244" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1582732291174" />
+    <state x="1576" y="244" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1585012873165" />
     <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1582728668175">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1582728668175" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/iniciandocomjpa/PrimeiroCrudTest.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

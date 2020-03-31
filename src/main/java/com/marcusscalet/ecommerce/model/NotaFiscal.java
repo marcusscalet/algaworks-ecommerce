@@ -4,25 +4,28 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.math.BigDecimal;
+import java.util.Date;
 
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Getter
 @Setter
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-@Table(name = "produto")
-public class Produto {
+@Table(name = "nota_fiscal")
+public class NotaFiscal {
 
     @EqualsAndHashCode.Include
     @Id
     private Integer id;
 
-    private String nome;
+    @Column(name = "pedido")
+    private Integer pedidoId;
 
-    private String descricao;
+    private String xml;
 
-    private BigDecimal preco;
+    @Column(name = "data_emissao")
+    private Date dataEmissao;
 }
