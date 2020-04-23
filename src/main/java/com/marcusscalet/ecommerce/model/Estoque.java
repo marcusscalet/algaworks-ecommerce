@@ -6,6 +6,8 @@ import lombok.Setter;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -16,13 +18,13 @@ import javax.persistence.Table;
 @Table(name = "estoque")
 public class Estoque {
 
-    @EqualsAndHashCode.Include
-    @Id
-    private Integer Id;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@EqualsAndHashCode.Include
+	@Id
+	private Integer Id;
 
+	@Column(name = "produto_id")
+	private Integer produtoId;
 
-    @Column(name = "produto_id")
-    private Integer produtoId;
-
-    private Integer quantidade;
+	private Integer quantidade;
 }

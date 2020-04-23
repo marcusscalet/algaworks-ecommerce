@@ -1,6 +1,5 @@
-package com.marcusscalet.ecommerce.iniciandocomjpa;
+package com.marcusscalet.ecommerce.mapeamentobasico;
 
-import com.marcusscalet.ecommerce.EntityManagerTest;
 import com.marcusscalet.ecommerce.model.EnderecoEntregaPedido;
 import com.marcusscalet.ecommerce.model.Pedido;
 import com.marcusscalet.ecommerce.model.StatusPedido;
@@ -22,7 +21,6 @@ public class MapeamentoObjetoEmbutidoTest extends EntityManagerTest {
         end.setNumero("351");
 
         Pedido pedido = new Pedido();
-        pedido.setId(1);
         pedido.setEnderecoEntregaPedido(end);
         pedido.setStatus(StatusPedido.AGUARDANDO);
         pedido.setTotal(new BigDecimal(5000));

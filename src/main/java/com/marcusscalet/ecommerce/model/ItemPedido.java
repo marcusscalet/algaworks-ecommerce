@@ -1,14 +1,19 @@
 package com.marcusscalet.ecommerce.model;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
+import java.math.BigDecimal;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-import java.math.BigDecimal;
+
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
 
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Getter
@@ -17,18 +22,22 @@ import java.math.BigDecimal;
 @Table(name = "item_pedido")
 public class ItemPedido {
 
-    @EqualsAndHashCode.Include
-    @Id
-    private Integer id;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@EqualsAndHashCode.Include
+	@Id
+	private Integer id;
 
-    @Column(name = "pedido_id")
-    private Integer pedidoId;
+	@ManyToOne
+	@JoinColumn(name = "pedido_id")
+	private Pedido pedido;
 
-    @Column(name = "produto_id")
-    private Integer produtoId;
+	@ManyToOne
+	@JoinColumn(name = "produto_id")
+	private Produto produto;
 
-    @Column(name = "preco_produto")
-    private BigDecimal precoProduto;
+	@Column(name = "preco_produto")
+	private BigDecimal precoProduto;
 
-    private Integer quantidade;
+	private Integer quantidade;
+
 }

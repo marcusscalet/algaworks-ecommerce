@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/SexoCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Produto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,14 +222,18 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1736" y="301" key="chooseDestDirectoryDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1582738373413" />
-    <state x="1616" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585615235110">
+    <state x="1616" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586213791883">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1616" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585615235110" />
+    <state x="1616" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586213791883" />
     <state x="1551" y="220" width="737" height="606" key="find.popup" timestamp="1584916369095">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1551" y="220" width="737" height="606" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1584916369095" />
+    <state x="1302" y="219" key="new project wizard" timestamp="1586218682963">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1302" y="219" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1586218682963" />
     <state x="1626" y="142" key="refactoring.ChangeSignatureDialog" timestamp="1582732493295">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

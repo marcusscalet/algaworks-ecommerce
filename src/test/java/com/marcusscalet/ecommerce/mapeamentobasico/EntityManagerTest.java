@@ -1,4 +1,4 @@
-package com.marcusscalet.ecommerce;
+package com.marcusscalet.ecommerce.mapeamentobasico;
 
 import org.junit.After;
 import org.junit.AfterClass;

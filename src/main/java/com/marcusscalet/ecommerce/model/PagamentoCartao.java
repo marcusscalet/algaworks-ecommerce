@@ -13,6 +13,7 @@ import javax.persistence.*;
 @Table(name = "pagamento_cartao")
 public class PagamentoCartao {
 
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     @Id
     private Integer id;

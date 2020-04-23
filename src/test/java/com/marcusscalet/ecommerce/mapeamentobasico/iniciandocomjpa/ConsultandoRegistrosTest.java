@@ -1,6 +1,6 @@
-package com.marcusscalet.ecommerce.iniciandocomjpa;
+package com.marcusscalet.ecommerce.mapeamentobasico.iniciandocomjpa;
 
-import com.marcusscalet.ecommerce.EntityManagerTest;
+import com.marcusscalet.ecommerce.mapeamentobasico.EntityManagerTest;
 import com.marcusscalet.ecommerce.model.Produto;
 import org.junit.Assert;
 import org.junit.Test;
