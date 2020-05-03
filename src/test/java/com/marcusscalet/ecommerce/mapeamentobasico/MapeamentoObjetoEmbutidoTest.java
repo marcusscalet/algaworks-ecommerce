@@ -1,5 +1,6 @@
 package com.marcusscalet.ecommerce.mapeamentobasico;
 
+import com.marcusscalet.ecommerce.model.Cliente;
 import com.marcusscalet.ecommerce.model.EnderecoEntregaPedido;
 import com.marcusscalet.ecommerce.model.Pedido;
 import com.marcusscalet.ecommerce.model.StatusPedido;
@@ -7,11 +8,14 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 public class MapeamentoObjetoEmbutidoTest extends EntityManagerTest {
 
     @Test
     public void test(){
+
+        Cliente cliente = entityManager.find(Cliente.class, 1);
         EnderecoEntregaPedido end = new EnderecoEntregaPedido();
         end.setBairro("Liberdade");
         end.setCep("13301100");
@@ -24,6 +28,8 @@ public class MapeamentoObjetoEmbutidoTest extends EntityManagerTest {
         pedido.setEnderecoEntregaPedido(end);
         pedido.setStatus(StatusPedido.AGUARDANDO);
         pedido.setTotal(new BigDecimal(5000));
+        pedido.setDataPedido(LocalDateTime.now());
+        pedido.setCliente(cliente);
 
         entityManager.getTransaction().begin();
         entityManager.persist(pedido);
@@ -31,6 +37,9 @@ public class MapeamentoObjetoEmbutidoTest extends EntityManagerTest {
 
         entityManager.clear();
 
-        Assert.assertNotNull(pedido.getId());
+        Pedido pedidoVerificacao = entityManager.find(Pedido.class,pedido.getId());
+        Assert.assertNotNull(pedidoVerificacao);
+        Assert.assertNotNull(pedidoVerificacao.getEnderecoEntregaPedido());
+        Assert.assertNotNull(pedidoVerificacao.getEnderecoEntregaPedido().getCep());
     }
 }

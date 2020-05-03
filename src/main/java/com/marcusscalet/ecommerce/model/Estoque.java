@@ -4,12 +4,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Getter
@@ -23,8 +18,9 @@ public class Estoque {
 	@Id
 	private Integer Id;
 
-	@Column(name = "produto_id")
-	private Integer produtoId;
+	@OneToOne(optional = false)
+	@JoinColumn(name = "produto_id")
+	private Produto produto;
 
 	private Integer quantidade;
 }
