@@ -1,16 +1,19 @@
 package com.marcusscalet.ecommerce.model;
 
+import com.marcusscalet.ecommerce.listener.GenericoListener;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Getter
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@EntityListeners({GenericoListener.class})
 @Entity
 @Table(name = "produto")
 public class Produto {
@@ -19,6 +22,12 @@ public class Produto {
     @EqualsAndHashCode.Include
     @Id
     private Integer id;
+
+	@Column(name = "dataCriacao", updatable = false)
+	private LocalDateTime dataCriacao;
+
+	@Column(name = "data_ultima_atualizacao", insertable = false)
+	private LocalDateTime dataUltimaAtualizacao;
 
     private String nome;
 
