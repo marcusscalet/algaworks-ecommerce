@@ -8,22 +8,15 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@IdClass(ItemPedidoId.class)
+//@IdClass(ItemPedidoId.class)
 @Getter
 @Setter
 @Entity
 @Table(name = "item_pedido")
 public class ItemPedido {
 
-	@Id
-	@EqualsAndHashCode.Include
-	@Column(name = "pedido_id")
-	private Integer pedidoId;
-
-	@Id
-	@EqualsAndHashCode.Include
-	@Column(name = "produto_id")
-	private Integer produtoId;
+	@EmbeddedId
+	private ItemPedidoId id;
 
 	@ManyToOne(optional = false)
 	@JoinColumn(name = "pedido_id", insertable = false, updatable = false)

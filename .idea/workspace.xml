@@ -4,7 +4,8 @@
     <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/ItemPedidoId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/ItemPedidoId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/mapeamentoavancado/ChaveCompostaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/mapeamentoavancado/ChaveCompostaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/mapeamentobasico/relacionamentos/RelacionamentoManyToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/mapeamentobasico/relacionamentos/RelacionamentoManyToOneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,8 +169,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RelacionamentoManyToOneTest" />
-        <item itemvalue="JUnit.RelacionamentoManyToOneTest.verificarRelacionamento" />
         <item itemvalue="JUnit.ChaveCompostaTest" />
+        <item itemvalue="JUnit.RelacionamentoManyToOneTest.verificarRelacionamento" />
         <item itemvalue="JUnit.ChaveCompostaTest.buscarItem" />
         <item itemvalue="JUnit.DetalhesColumnTest" />
       </list>
@@ -233,22 +234,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1588033432347" />
-    <state width="2517" height="313" key="GridCell.Tab.0.bottom" timestamp="1588991829079">
+    <state width="1234" height="311" key="GridCell.Tab.0.bottom" timestamp="1588994108369">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="313" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588991829079" />
-    <state width="2517" height="313" key="GridCell.Tab.0.center" timestamp="1588991829078">
+    <state width="1234" height="311" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588994108369" />
+    <state width="1234" height="311" key="GridCell.Tab.0.center" timestamp="1588994108369">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="313" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588991829078" />
-    <state width="2517" height="313" key="GridCell.Tab.0.left" timestamp="1588991829078">
+    <state width="1234" height="311" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588994108369" />
+    <state width="1234" height="311" key="GridCell.Tab.0.left" timestamp="1588994108369">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="313" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588991829078" />
-    <state width="2517" height="313" key="GridCell.Tab.0.right" timestamp="1588991829079">
+    <state width="1234" height="311" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588994108369" />
+    <state width="1234" height="311" key="GridCell.Tab.0.right" timestamp="1588994108369">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="313" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588991829079" />
+    <state width="1234" height="311" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588994108369" />
     <state width="1234" height="346" key="GridCell.Tab.1.bottom" timestamp="1588988524062">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
