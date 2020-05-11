@@ -13,11 +13,12 @@ import javax.persistence.*;
 @Table(name = "pagamento_cartao")
 public class PagamentoCartao {
 
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-    @EqualsAndHashCode.Include
+	@EqualsAndHashCode.Include
     @Id
+    @Column(name = "pedido_id")
     private Integer id;
 
+	@MapsId
 	@OneToOne(optional = false)
     @JoinColumn(name = "pedido_id")
     private Pedido pedido;
