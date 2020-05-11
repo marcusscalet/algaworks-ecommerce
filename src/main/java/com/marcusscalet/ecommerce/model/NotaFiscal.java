@@ -14,11 +14,12 @@ import java.util.Date;
 @Table(name = "nota_fiscal")
 public class NotaFiscal {
 
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     @Id
+    @Column(name = "pedido_id")
     private Integer id;
 
+    @MapsId
 	@OneToOne(optional = false)
     @JoinColumn(name = "pedido_id")
     private Pedido pedido;

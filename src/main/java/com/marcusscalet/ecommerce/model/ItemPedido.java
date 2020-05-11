@@ -7,8 +7,8 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.math.BigDecimal;
 
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 //@IdClass(ItemPedidoId.class)
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Getter
 @Setter
 @Entity
@@ -18,12 +18,14 @@ public class ItemPedido {
 	@EmbeddedId
 	private ItemPedidoId id;
 
+	@MapsId("pedidoId") //atributo
 	@ManyToOne(optional = false)
-	@JoinColumn(name = "pedido_id", insertable = false, updatable = false)
+	@JoinColumn(name = "pedido_id")
 	private Pedido pedido;
 
+	@MapsId("produtoId") //atributo
 	@ManyToOne(optional = false)
-	@JoinColumn(name = "produto_id", insertable = false, updatable = false)
+	@JoinColumn(name = "produto_id")
 	private Produto produto;
 
 	@Column(name = "preco_produto")

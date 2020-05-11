@@ -4,9 +4,11 @@
     <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/ItemPedidoId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/ItemPedidoId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/mapeamentoavancado/ChaveCompostaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/mapeamentoavancado/ChaveCompostaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/mapeamentobasico/relacionamentos/RelacionamentoManyToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/mapeamentobasico/relacionamentos/RelacionamentoManyToOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/NotaFiscal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/NotaFiscal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/NotaFiscal.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
       <recent name="com.marcusscalet.ecommerce.iniciandocomjpa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RelacionamentoManyToOneTest">
+  <component name="RunManager" selected="JUnit.MapsIdTest">
     <configuration name="ChaveCompostaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -70,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChaveCompostaTest.buscarItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapsIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -79,14 +81,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.mapeamentoavancado" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.mapeamentoavancado.ChaveCompostaTest" />
-      <option name="METHOD_NAME" value="buscarItem" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.mapeamentoavancado.MapsIdTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetalhesColumnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapsIdTest.inserirPagamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +96,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.mapeamentoavancado" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.mapeamentoavancado.DetalhesColumnTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.mapeamentoavancado.MapsIdTest" />
+      <option name="METHOD_NAME" value="inserirPagamento" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,20 +161,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DetalhesColumnTest" />
-      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
       <item itemvalue="JUnit.ChaveCompostaTest" />
-      <item itemvalue="JUnit.ChaveCompostaTest.buscarItem" />
       <item itemvalue="JUnit.RelacionamentoManyToOneTest" />
       <item itemvalue="JUnit.RelacionamentoManyToOneTest.verificarRelacionamento" />
+      <item itemvalue="JUnit.MapsIdTest.inserirPagamento" />
+      <item itemvalue="JUnit.MapsIdTest" />
+      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MapsIdTest" />
+        <item itemvalue="JUnit.MapsIdTest.inserirPagamento" />
         <item itemvalue="JUnit.RelacionamentoManyToOneTest" />
         <item itemvalue="JUnit.ChaveCompostaTest" />
         <item itemvalue="JUnit.RelacionamentoManyToOneTest.verificarRelacionamento" />
-        <item itemvalue="JUnit.ChaveCompostaTest.buscarItem" />
-        <item itemvalue="JUnit.DetalhesColumnTest" />
       </list>
     </recent_temporary>
   </component>
@@ -234,38 +236,38 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1588033432347" />
-    <state width="1234" height="311" key="GridCell.Tab.0.bottom" timestamp="1588994108369">
+    <state width="1234" height="307" key="GridCell.Tab.0.bottom" timestamp="1589155716138">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="311" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588994108369" />
-    <state width="1234" height="311" key="GridCell.Tab.0.center" timestamp="1588994108369">
+    <state width="1234" height="307" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1589155716138" />
+    <state width="1234" height="307" key="GridCell.Tab.0.center" timestamp="1589155716138">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="311" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588994108369" />
-    <state width="1234" height="311" key="GridCell.Tab.0.left" timestamp="1588994108369">
+    <state width="1234" height="307" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1589155716138" />
+    <state width="1234" height="307" key="GridCell.Tab.0.left" timestamp="1589155716137">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="311" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588994108369" />
-    <state width="1234" height="311" key="GridCell.Tab.0.right" timestamp="1588994108369">
+    <state width="1234" height="307" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1589155716137" />
+    <state width="1234" height="307" key="GridCell.Tab.0.right" timestamp="1589155716138">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="311" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588994108369" />
-    <state width="1234" height="346" key="GridCell.Tab.1.bottom" timestamp="1588988524062">
+    <state width="1234" height="307" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1589155716138" />
+    <state width="1234" height="346" key="GridCell.Tab.1.bottom" timestamp="1588994425116">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="346" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588988524062" />
-    <state width="1234" height="346" key="GridCell.Tab.1.center" timestamp="1588988524062">
+    <state width="1234" height="346" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588994425116" />
+    <state width="1234" height="346" key="GridCell.Tab.1.center" timestamp="1588994425116">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="346" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588988524062" />
-    <state width="1234" height="346" key="GridCell.Tab.1.left" timestamp="1588988524062">
+    <state width="1234" height="346" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588994425116" />
+    <state width="1234" height="346" key="GridCell.Tab.1.left" timestamp="1588994425116">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="346" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588988524062" />
-    <state width="1234" height="346" key="GridCell.Tab.1.right" timestamp="1588988524062">
+    <state width="1234" height="346" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588994425116" />
+    <state width="1234" height="346" key="GridCell.Tab.1.right" timestamp="1588994425116">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="346" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588988524062" />
+    <state width="1234" height="346" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588994425116" />
     <state x="1421" y="166" key="SettingsEditor" timestamp="1587649071578">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
