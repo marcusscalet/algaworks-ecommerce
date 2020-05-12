@@ -1,11 +1,10 @@
 package com.marcusscalet.ecommerce.mapeamentobasico.iniciandocomjpa;
 
-import org.junit.Assert;
-import org.junit.Test;
-
-import com.marcusscalet.ecommerce.mapeamentobasico.EntityManagerTest;
+import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;
 import com.marcusscalet.ecommerce.model.Cliente;
 import com.marcusscalet.ecommerce.model.Produto;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class PrimeiroCrudTest extends EntityManagerTest {
 

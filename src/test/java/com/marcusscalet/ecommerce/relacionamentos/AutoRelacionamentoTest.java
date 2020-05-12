@@ -1,10 +1,9 @@
-package com.marcusscalet.ecommerce.mapeamentobasico.relacionamentos;
+package com.marcusscalet.ecommerce.relacionamentos;
 
+import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;
+import com.marcusscalet.ecommerce.model.Categoria;
 import org.junit.Assert;
 import org.junit.Test;
-
-import com.marcusscalet.ecommerce.mapeamentobasico.EntityManagerTest;
-import com.marcusscalet.ecommerce.model.Categoria;
 
 public class AutoRelacionamentoTest extends EntityManagerTest {
 

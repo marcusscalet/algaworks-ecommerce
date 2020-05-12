@@ -1,6 +1,6 @@
 package com.marcusscalet.ecommerce.mapeamentoavancado;
 
-import com.marcusscalet.ecommerce.mapeamentobasico.EntityManagerTest;
+import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;
 import com.marcusscalet.ecommerce.model.*;
 import org.junit.Assert;
 import org.junit.Test;
@@ -22,21 +22,18 @@ public class ChaveCompostaTest extends EntityManagerTest {
         pedido.setStatus(StatusPedido.PAGO);
         pedido.setTotal(produto.getPreco());
 
-        entityManager.persist(pedido);
-
-        entityManager.flush();
-
         ItemPedido itemPedido = new ItemPedido();
 //        itemPedido.setPedidoId(pedido.getId()); IdClass
 //        itemPedido.setProdutoId(produto.getId()); IdClass
-        itemPedido.setId(new ItemPedidoId(produto.getId(), pedido.getId()));
+//        itemPedido.setId(new ItemPedidoId(produto.getId(), pedido.getId()));
+        itemPedido.setId(new ItemPedidoId());
         itemPedido.setPedido(pedido);
         itemPedido.setProduto(produto);
         itemPedido.setPrecoProduto(produto.getPreco());
         itemPedido.setQuantidade(1);
 
         entityManager.persist(itemPedido);
-
+        entityManager.persist(pedido);
         entityManager.getTransaction().commit();
 
         entityManager.clear();

@@ -1,5 +1,6 @@
 package com.marcusscalet.ecommerce.mapeamentobasico;
 
+import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;
 import com.marcusscalet.ecommerce.model.Cliente;
 import com.marcusscalet.ecommerce.model.EnderecoEntregaPedido;
 import com.marcusscalet.ecommerce.model.Pedido;

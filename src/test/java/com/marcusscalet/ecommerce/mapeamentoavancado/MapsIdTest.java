@@ -15,8 +15,6 @@ public class MapsIdTest extends EntityManagerTest {
     public void inserirPagamento() {
         Pedido pedido = entityManager.find(Pedido.class, 1);
 
-        System.out.println(pedido);
-
         NotaFiscal notaFiscal = new NotaFiscal();
         notaFiscal.setPedido(pedido);
         notaFiscal.setDataEmissao(new Date());

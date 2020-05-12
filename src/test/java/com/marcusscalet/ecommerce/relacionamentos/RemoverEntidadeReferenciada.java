@@ -1,10 +1,9 @@
-package com.marcusscalet.ecommerce.mapeamentobasico.relacionamentos;
+package com.marcusscalet.ecommerce.relacionamentos;
 
+import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;
+import com.marcusscalet.ecommerce.model.Pedido;
 import org.junit.Assert;
 import org.junit.Test;
-
-import com.marcusscalet.ecommerce.mapeamentobasico.EntityManagerTest;
-import com.marcusscalet.ecommerce.model.Pedido;
 
 public class RemoverEntidadeReferenciada extends EntityManagerTest {
 

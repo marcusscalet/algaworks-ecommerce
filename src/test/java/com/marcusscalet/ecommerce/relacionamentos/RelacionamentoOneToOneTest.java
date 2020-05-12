@@ -1,6 +1,6 @@
-package com.marcusscalet.ecommerce.mapeamentobasico.relacionamentos;
+package com.marcusscalet.ecommerce.relacionamentos;
 
-import com.marcusscalet.ecommerce.mapeamentobasico.EntityManagerTest;
+import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;
 import com.marcusscalet.ecommerce.model.NotaFiscal;
 import com.marcusscalet.ecommerce.model.PagamentoCartao;
 import com.marcusscalet.ecommerce.model.Pedido;

@@ -1,6 +1,6 @@
 package com.marcusscalet.ecommerce.conhecendoentitymanager;
 
-import com.marcusscalet.ecommerce.mapeamentobasico.EntityManagerTest;
+import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;
 import com.marcusscalet.ecommerce.model.Produto;
 import org.junit.Test;
 

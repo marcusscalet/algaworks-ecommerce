@@ -1,6 +1,6 @@
-package com.marcusscalet.ecommerce.mapeamentobasico.relacionamentos;
+package com.marcusscalet.ecommerce.relacionamentos;
 
-import com.marcusscalet.ecommerce.mapeamentobasico.EntityManagerTest;
+import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;
 import com.marcusscalet.ecommerce.model.*;
 import org.junit.Assert;
 import org.junit.Test;
@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 public class RelacionamentoOneToManyTest extends EntityManagerTest {
 
 	@Test
-	public void verificarRelacionamento() {
+	public void verificarRelacionamentoPedido() {
 
 		Cliente cliente = entityManager.find(Cliente.class, 1);
 
@@ -23,7 +23,6 @@ public class RelacionamentoOneToManyTest extends EntityManagerTest {
 		pedido.setCliente(cliente);
 
 		entityManager.getTransaction().begin();
-		entityManager.persist(pedido);
 		entityManager.getTransaction().commit();
 
 		entityManager.clear();
@@ -39,8 +38,6 @@ public class RelacionamentoOneToManyTest extends EntityManagerTest {
 		Cliente cliente = entityManager.find(Cliente.class, 1);
 		Produto produto = entityManager.find(Produto.class, 1);
 
-		System.out.println(produto);
-
 		Pedido pedido = new Pedido();
 		pedido.setStatus(StatusPedido.AGUARDANDO);
 		pedido.setDataCriacao(LocalDateTime.now());
@@ -48,12 +45,14 @@ public class RelacionamentoOneToManyTest extends EntityManagerTest {
 		pedido.setCliente(cliente);
 
 		ItemPedido itemPedido = new ItemPedido();
+		itemPedido.setId(new ItemPedidoId());
 		itemPedido.setProduto(produto);
 		itemPedido.setQuantidade(1);
-		itemPedido.setPrecoProduto(BigDecimal.TEN);
+		itemPedido.setPrecoProduto(produto.getPreco());
 		itemPedido.setPedido(pedido);
 
 		entityManager.getTransaction().begin();
+
 		entityManager.persist(pedido);
 		entityManager.persist(itemPedido);
 		entityManager.getTransaction().commit();

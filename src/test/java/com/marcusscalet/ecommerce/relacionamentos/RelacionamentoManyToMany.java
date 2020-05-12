@@ -1,13 +1,12 @@
-package com.marcusscalet.ecommerce.mapeamentobasico.relacionamentos;
+package com.marcusscalet.ecommerce.relacionamentos;
 
-import java.util.Arrays;
-
+import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;
+import com.marcusscalet.ecommerce.model.Categoria;
+import com.marcusscalet.ecommerce.model.Produto;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.marcusscalet.ecommerce.mapeamentobasico.EntityManagerTest;
-import com.marcusscalet.ecommerce.model.Categoria;
-import com.marcusscalet.ecommerce.model.Produto;
+import java.util.Arrays;
 
 public class RelacionamentoManyToMany extends EntityManagerTest {
 
@@ -20,7 +19,7 @@ public class RelacionamentoManyToMany extends EntityManagerTest {
 
 		/* categoria.setProdutos(Arrays.asList(produto)); */
 
-		/* atributo owner da relação */
+		/* atributo owner da relaï¿½ï¿½o */
 		produto.setCategorias(Arrays.asList(categoria));
 
 		entityManager.getTransaction().commit();
