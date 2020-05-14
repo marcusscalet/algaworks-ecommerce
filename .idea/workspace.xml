@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Cliente.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <recent name="com.marcusscalet.ecommerce.iniciandocomjpa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PropriedadesTransientTest">
+  <component name="RunManager" selected="JUnit.ElementCollectionTest">
     <configuration name="ChaveCompostaTest.salvarItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -64,6 +65,21 @@
       <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.mapeamentoavancado.ChaveCompostaTest" />
       <option name="METHOD_NAME" value="salvarItem" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElementCollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marcusscalet.ecommerce.mapeamentoavancado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.mapeamentoavancado" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.mapeamentoavancado.ElementCollectionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,22 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelacionamentoOneToManyTest.verificarRelacionamentoPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.marcusscalet.ecommerce.relacionamentos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.relacionamentos.RelacionamentoOneToManyTest" />
-      <option name="METHOD_NAME" value="verificarRelacionamentoPedido" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="algaworks-ecommerce [clean package]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -157,20 +157,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.RelacionamentoOneToManyTest.verificarRelacionamentoPedido" />
       <item itemvalue="JUnit.ChaveCompostaTest.salvarItem" />
       <item itemvalue="JUnit.RelacionamentoManyToOneTest.verificarRelacionamentoItemPedido" />
       <item itemvalue="JUnit.RelacionamentoOneToManyTest" />
       <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
       <item itemvalue="JUnit.PropriedadesTransientTest" />
+      <item itemvalue="JUnit.ElementCollectionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ElementCollectionTest" />
         <item itemvalue="JUnit.PropriedadesTransientTest" />
         <item itemvalue="JUnit.RelacionamentoOneToManyTest" />
         <item itemvalue="JUnit.RelacionamentoManyToOneTest.verificarRelacionamentoItemPedido" />
         <item itemvalue="JUnit.ChaveCompostaTest.salvarItem" />
-        <item itemvalue="JUnit.RelacionamentoOneToManyTest.verificarRelacionamentoPedido" />
       </list>
     </recent_temporary>
   </component>
@@ -232,22 +232,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1588033432347" />
-    <state width="1234" height="305" key="GridCell.Tab.0.bottom" timestamp="1589416995592">
+    <state width="1234" height="304" key="GridCell.Tab.0.bottom" timestamp="1589419928289">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="305" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1589416995592" />
-    <state width="1234" height="305" key="GridCell.Tab.0.center" timestamp="1589416995592">
+    <state width="1234" height="304" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1589419928289" />
+    <state width="1234" height="304" key="GridCell.Tab.0.center" timestamp="1589419928289">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="305" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1589416995592" />
-    <state width="1234" height="305" key="GridCell.Tab.0.left" timestamp="1589416995592">
+    <state width="1234" height="304" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1589419928289" />
+    <state width="1234" height="304" key="GridCell.Tab.0.left" timestamp="1589419928289">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="305" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1589416995592" />
-    <state width="1234" height="305" key="GridCell.Tab.0.right" timestamp="1589416995592">
+    <state width="1234" height="304" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1589419928289" />
+    <state width="1234" height="304" key="GridCell.Tab.0.right" timestamp="1589419928289">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="305" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1589416995592" />
+    <state width="1234" height="304" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1589419928289" />
     <state width="1234" height="346" key="GridCell.Tab.1.bottom" timestamp="1588994425116">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
