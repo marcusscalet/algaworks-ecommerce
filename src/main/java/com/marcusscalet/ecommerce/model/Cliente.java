@@ -1,19 +1,11 @@
 package com.marcusscalet.ecommerce.model;
 
-import java.util.List;
-
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
-
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
+
+import javax.persistence.*;
+import java.util.List;
 
 @Getter
 @Setter
@@ -27,11 +19,25 @@ public class Cliente {
     @Id
     private Integer id;
 
-    private String nome;
+	private String nome;
+
+	/* campos com @Transient são ignorados pelo JPA p/ criação e busca no BD */
+	@Transient
+    private String primeiroNome;
 
     @Enumerated(EnumType.STRING)
     private SexoCliente sexo;
     
     @OneToMany(mappedBy = "cliente")
     private List<Pedido> pedidos;
+
+    @PostLoad
+    public void configurarPrimeiroNome(){
+        if (nome != null && !nome.isBlank()){
+            int index = nome.indexOf(" ");
+            if(index > -1){
+                primeiroNome = nome.substring(0, index);
+            }
+        }
+    }
 }
