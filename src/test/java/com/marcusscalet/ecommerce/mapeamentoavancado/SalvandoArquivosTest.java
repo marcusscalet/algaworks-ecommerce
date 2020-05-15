@@ -3,6 +3,7 @@ package com.marcusscalet.ecommerce.mapeamentoavancado;
 import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;
 import com.marcusscalet.ecommerce.model.NotaFiscal;
 import com.marcusscalet.ecommerce.model.Pedido;
+import com.marcusscalet.ecommerce.model.Produto;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -24,6 +25,8 @@ public class SalvandoArquivosTest extends EntityManagerTest {
         entityManager.persist(notaFiscal);
         entityManager.getTransaction().commit();
 
+        entityManager.clear();
+
         NotaFiscal notaFiscalVerificacao = entityManager.find(NotaFiscal.class, notaFiscal.getId());
         Assert.assertNotNull(notaFiscalVerificacao.getXml());
         Assert.assertTrue(notaFiscalVerificacao.getXml().length > 0);
@@ -40,11 +43,37 @@ public class SalvandoArquivosTest extends EntityManagerTest {
         } */
     }
 
+    @Test
+    public void salvarFoto(){
+        Produto produto = entityManager.find(Produto.class,1);
+
+        produto.setFoto(carregarFoto());
+
+        entityManager.getTransaction().begin();
+        entityManager.getTransaction().commit();
+
+        entityManager.clear();
+
+        Produto produtoVerificacao = entityManager.find(Produto.class, produto.getId());
+
+        Assert.assertNotNull(produtoVerificacao.getFoto());
+        Assert.assertTrue(produtoVerificacao.getFoto().length > 0);
+    }
+
     private static byte[] carregatNotaFiscal(){
         try {
             return SalvandoArquivosTest.class.getResourceAsStream(
                     "/nota-fiscal.xml").readAllBytes();
         } catch (IOException e){
+            throw new RuntimeException(e);
+        }
+    }
+
+    private static byte[] carregarFoto(){
+        try {
+            return SalvandoArquivosTest.class.getResourceAsStream(
+                    "/produto.jpg").readAllBytes();
+        }catch (IOException e){
             throw new RuntimeException(e);
         }
     }
