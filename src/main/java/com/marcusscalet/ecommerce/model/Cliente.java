@@ -1,6 +1,5 @@
 package com.marcusscalet.ecommerce.model;
 
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,17 +9,11 @@ import java.util.List;
 import java.util.Map;
 
 @Getter
-@Setter
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)  //cliente_id é pk em cliente_detalhe e em cliente = fk
+@Setter                       //cliente_id é pk em cliente_detalhe e em cliente = fk
 @SecondaryTable(name = "cliente_detalhe", pkJoinColumns = @PrimaryKeyJoinColumn(name = "cliente_id"))
 @Entity
 @Table(name = "cliente")
-public class Cliente {
-
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-    @EqualsAndHashCode.Include
-    @Id
-    private Integer id;
+public class Cliente extends EntidadeBaseInteger {
 
 	private String nome;
 

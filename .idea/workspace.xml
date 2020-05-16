@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Categoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Estoque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/NotaFiscal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/PagamentoBoleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/PagamentoBoleto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/PagamentoCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/PagamentoCartao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/service/NotaFiscalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/service/NotaFiscalService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +62,8 @@
       <recent name="C:\eclipse-workspace\algaworks-ecommerce\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SecondaryTableTest">
-    <configuration name="SalvandoArquivosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HerancaTest">
+    <configuration name="HerancaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -64,7 +72,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.mapeamentoavancado" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.mapeamentoavancado.SalvandoArquivosTest" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.mapeamentoavancado.HerancaTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,19 +169,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SalvandoArquivosTest.salvarXmlNota" />
-      <item itemvalue="JUnit.SalvandoArquivosTest" />
       <item itemvalue="JUnit.SalvandoArquivosTest.salvarFoto" />
       <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
       <item itemvalue="JUnit.SecondaryTableTest.salvarCliente" />
       <item itemvalue="JUnit.SecondaryTableTest" />
+      <item itemvalue="JUnit.HerancaTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HerancaTest" />
         <item itemvalue="JUnit.SecondaryTableTest" />
         <item itemvalue="JUnit.SecondaryTableTest.salvarCliente" />
         <item itemvalue="JUnit.SalvandoArquivosTest.salvarFoto" />
         <item itemvalue="JUnit.SalvandoArquivosTest.salvarXmlNota" />
-        <item itemvalue="JUnit.SalvandoArquivosTest" />
       </list>
     </recent_temporary>
   </component>
@@ -235,22 +243,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1588033432347" />
-    <state width="1234" height="180" key="GridCell.Tab.0.bottom" timestamp="1589590229756">
+    <state width="1234" height="217" key="GridCell.Tab.0.bottom" timestamp="1589593194350">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="180" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1589590229756" />
-    <state width="1234" height="180" key="GridCell.Tab.0.center" timestamp="1589590229755">
+    <state width="1234" height="217" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1589593194350" />
+    <state width="1234" height="217" key="GridCell.Tab.0.center" timestamp="1589593194350">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="180" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1589590229755" />
-    <state width="1234" height="180" key="GridCell.Tab.0.left" timestamp="1589590229755">
+    <state width="1234" height="217" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1589593194350" />
+    <state width="1234" height="217" key="GridCell.Tab.0.left" timestamp="1589593194350">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="180" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1589590229755" />
-    <state width="1234" height="180" key="GridCell.Tab.0.right" timestamp="1589590229755">
+    <state width="1234" height="217" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1589593194350" />
+    <state width="1234" height="217" key="GridCell.Tab.0.right" timestamp="1589593194350">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="180" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1589590229755" />
+    <state width="1234" height="217" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1589593194350" />
     <state width="1234" height="346" key="GridCell.Tab.1.bottom" timestamp="1588994425116">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

@@ -1,7 +1,6 @@
 package com.marcusscalet.ecommerce.model;
 
 import com.marcusscalet.ecommerce.listener.GenericoListener;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,16 +11,10 @@ import java.util.List;
 
 @Getter
 @Setter
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @EntityListeners({GenericoListener.class})
 @Entity
 @Table(name = "produto")
-public class Produto {
-
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-    @EqualsAndHashCode.Include
-    @Id
-    private Integer id;
+public class Produto extends EntidadeBaseInteger{
 
 	@Column(name = "dataCriacao", updatable = false)
 	private LocalDateTime dataCriacao;

@@ -2,7 +2,6 @@ package com.marcusscalet.ecommerce.model;
 
 import com.marcusscalet.ecommerce.listener.GenericoListener;
 import com.marcusscalet.ecommerce.listener.GerarNotaFiscalListener;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,19 +10,13 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Getter
 @Setter
 @EntityListeners({ GerarNotaFiscalListener.class, GenericoListener.class})
 @Entity
 @Table(name = "pedido")
-public class Pedido {
+public class Pedido extends EntidadeBaseInteger{
 
-    @EqualsAndHashCode.Include
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
-    
     @ManyToOne(optional = false) /* obrigatoriamente salvar cliente junto com o pedido "inner join ao invés de left join" */
     @JoinColumn(name = "cliente_id")
     private Cliente cliente;
