@@ -4,8 +4,11 @@ insert into produto (id, nome, preco, dataCriacao, descricao) values (3, 'Câmer
 insert into cliente (id, nome) values (1, 'John Doe');
 insert into cliente (id, nome) values (2, 'Roger Rabbit');
 
-insert into pedido (id, cliente_id, data_criacao, total, status) values(1, 1, sysdate(), 100.0, 'AGUARDANDO');
+insert into pedido (id, cliente_id, data_criacao, total, status) values(1, 1, sysdate(), 998.0, 'AGUARDANDO');
+insert into pedido (id, cliente_id, data_criacao, total, status) values(2, 1, sysdate(), 499.0, 'AGUARDANDO');
 
-insert into item_pedido (pedido_id, produto_id, preco_produto, quantidade) values (1, 1, 5.0, 2);
+insert into item_pedido (pedido_id, produto_id, preco_produto, quantidade) values (1, 1, 499, 2);
+insert into item_pedido (pedido_id, produto_id, preco_produto, quantidade) values (2, 1, 499, 1);
 
-insert into categoria(id, nome) values (1, 'Eletrônicos');
+insert into pagamento (pedido_id, status, numero_cartao, dtype) values(2, 'PROCESSANDO', '123', 'PagamentoCartao');
+insert into categoria (id, nome) values (1, 'Eletrônicos');

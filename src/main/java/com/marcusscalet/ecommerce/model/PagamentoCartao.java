@@ -9,15 +9,8 @@ import javax.persistence.*;
 @Setter
 @Entity
 @Table(name = "pagamento_cartao")
-public class PagamentoCartao {
+public class PagamentoCartao extends Pagamento{
 
-	@MapsId
-	@OneToOne(optional = false)
-    @JoinColumn(name = "pedido_id")
-    private Pedido pedido;
-
-    @Enumerated(EnumType.STRING)
-    private StatusPagamento status;
-
-    private String numero;
+    @Column(name = "numero_cartao")
+    private String numeroCartao;
 }
