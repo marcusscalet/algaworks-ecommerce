@@ -12,10 +12,13 @@ import java.util.Map;
 @Setter                       //cliente_id é pk em cliente_detalhe e em cliente = fk
 @SecondaryTable(name = "cliente_detalhe", pkJoinColumns = @PrimaryKeyJoinColumn(name = "cliente_id"))
 @Entity
-@Table(name = "cliente")
+@Table(name = "cliente", uniqueConstraints = { @UniqueConstraint(name = "unq_cpf", columnNames = { "cpf"}) },
+        indexes = { @Index(name= "idx_nome", columnList = "nome")})
 public class Cliente extends EntidadeBaseInteger {
 
 	private String nome;
+
+	private String cpf;
 
 	/* campos com @Transient são ignorados pelo JPA p/ criação e busca no BD */
 	@Transient
