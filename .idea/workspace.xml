@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Estoque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Pedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Categoria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Produto.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,8 +165,8 @@
       <item itemvalue="JUnit.RelacionamentoOneToOneTest" />
       <item itemvalue="JUnit.com.marcusscalet.ecommerce in algaworks-ecommerce" />
       <item itemvalue="JUnit.HerancaTest.incluirPagamentoPedido" />
-      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
       <item itemvalue="JUnit.DDLTest" />
+      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
     </list>
     <recent_temporary>
       <list>
@@ -234,22 +236,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1588033432347" />
-    <state width="1234" height="323" key="GridCell.Tab.0.bottom" timestamp="1589849848486">
+    <state width="1234" height="322" key="GridCell.Tab.0.bottom" timestamp="1589850802929">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="323" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1589849848486" />
-    <state width="1234" height="323" key="GridCell.Tab.0.center" timestamp="1589849848486">
+    <state width="1234" height="322" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1589850802929" />
+    <state width="1234" height="322" key="GridCell.Tab.0.center" timestamp="1589850802929">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="323" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1589849848486" />
-    <state width="1234" height="323" key="GridCell.Tab.0.left" timestamp="1589849848485">
+    <state width="1234" height="322" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1589850802929" />
+    <state width="1234" height="322" key="GridCell.Tab.0.left" timestamp="1589850802929">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="323" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1589849848485" />
-    <state width="1234" height="323" key="GridCell.Tab.0.right" timestamp="1589849848486">
+    <state width="1234" height="322" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1589850802929" />
+    <state width="1234" height="322" key="GridCell.Tab.0.right" timestamp="1589850802929">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="323" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1589849848486" />
+    <state width="1234" height="322" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1589850802929" />
     <state width="1234" height="346" key="GridCell.Tab.1.bottom" timestamp="1588994425116">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

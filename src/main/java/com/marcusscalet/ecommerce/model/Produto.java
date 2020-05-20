@@ -23,11 +23,17 @@ public class Produto extends EntidadeBaseInteger{
 	@Column(name = "data_ultima_atualizacao", insertable = false)
 	private LocalDateTime dataUltimaAtualizacao;
 
+	@Column(length = 100, nullable = false)
     private String nome;
 
+	@Column(columnDefinition = "varchar(275) not null default 'descricao'")
     private String descricao;
 
+	@Column(precision = 10, scale = 2)
     private BigDecimal preco;
+
+    @Lob
+    private byte[] foto;
     
     @ManyToMany
     @JoinTable(
@@ -48,7 +54,4 @@ public class Produto extends EntidadeBaseInteger{
     @ElementCollection
     @CollectionTable(name = "produto_atributo", joinColumns = @JoinColumn(name = "produto_id"))
     private List<Atributo> atributos;
-
-    @Lob
-    private byte[] foto;
 }
