@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class FlushTest  extends EntityManagerTest {
 
-    @Test
+    @Test(expected = Exception.class)
     public void chamarFlush() {
         try {
             entityManager.getTransaction().begin();
@@ -23,7 +23,7 @@ public class FlushTest  extends EntityManagerTest {
             }
 
             /*
-            ---Uma consulta obrigao o JPA a sincronizar o que ele tem na memória.---
+            ---Uma consulta obriga o JPA a sincronizar o que ele tem na memória.---
 
             Pedido pedidoPago = entityManager
                     .createQuery("select p from Pedido p where p.id = 1", Pedido.class)

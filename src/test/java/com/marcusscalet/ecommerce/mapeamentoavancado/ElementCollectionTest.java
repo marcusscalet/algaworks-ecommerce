@@ -47,6 +47,9 @@ public class ElementCollectionTest extends EntityManagerTest {
 
         Cliente cliente = entityManager.find(Cliente.class,1);
         cliente.setContatos(Collections.singletonMap("email", "john.doe@gmail.com"));
+//        cliente.setNome("Fernanda Moraes");
+//        cliente.setSexo(SexoCliente.FEMININO);
+//        cliente.setCpf("585.956.415-88");
 
         entityManager.getTransaction().commit();
 

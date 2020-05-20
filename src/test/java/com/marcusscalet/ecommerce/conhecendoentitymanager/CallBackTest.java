@@ -7,6 +7,9 @@ import com.marcusscalet.ecommerce.model.StatusPedido;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
 public class CallBackTest extends EntityManagerTest {
 
     @Test
@@ -17,6 +20,8 @@ public class CallBackTest extends EntityManagerTest {
 
         pedido.setCliente(cliente);
         pedido.setStatus(StatusPedido.AGUARDANDO);
+        pedido.setDataCriacao(LocalDateTime.now());
+        pedido.setTotal(BigDecimal.TEN);
 
         entityManager.getTransaction().begin();
 

@@ -19,7 +19,7 @@ public class RelacionamentoManyToMany extends EntityManagerTest {
 
 		/* categoria.setProdutos(Arrays.asList(produto)); */
 
-		/* atributo owner da rela��o */
+		/* atributo owner da relação */
 		produto.setCategorias(Arrays.asList(categoria));
 
 		entityManager.getTransaction().commit();

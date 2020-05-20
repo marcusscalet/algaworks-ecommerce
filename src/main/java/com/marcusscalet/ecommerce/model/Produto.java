@@ -17,7 +17,7 @@ import java.util.List;
         indexes = {@Index (name = "idx_nome", columnList = "nome")})
 public class Produto extends EntidadeBaseInteger{
 
-	@Column(name = "dataCriacao", updatable = false)
+	@Column(name = "dataCriacao", nullable = false, updatable = false)
 	private LocalDateTime dataCriacao;
 
 	@Column(name = "data_ultima_atualizacao", insertable = false)
@@ -26,10 +26,9 @@ public class Produto extends EntidadeBaseInteger{
 	@Column(length = 100, nullable = false)
     private String nome;
 
-	@Column(columnDefinition = "varchar(275) not null default 'descricao'")
+	@Lob
     private String descricao;
 
-	@Column(precision = 10, scale = 2)
     private BigDecimal preco;
 
     @Lob
@@ -48,7 +47,7 @@ public class Produto extends EntidadeBaseInteger{
     /* Criação da tabela produto_tag usando coluna produto_id para referenciar tabela de produto */
     @ElementCollection
     @CollectionTable(name = "produto_tag", joinColumns = @JoinColumn(name = "produto_id"))
-    @Column(name = "tag")
+    @Column(name = "tag", length = 50, nullable = false)
     private List<String> tags;
 
     @ElementCollection
