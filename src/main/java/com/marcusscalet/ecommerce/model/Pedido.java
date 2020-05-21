@@ -18,7 +18,8 @@ import java.util.List;
 public class Pedido extends EntidadeBaseInteger{
 
     @ManyToOne(optional = false) /* obrigatoriamente salvar cliente junto com o pedido "inner join ao invés de left join" */
-    @JoinColumn(name = "cliente_id")
+    @JoinColumn(name = "cliente_id", nullable = false,
+            foreignKey = @ForeignKey(name = "fk_pedido_cliente"))
     private Cliente cliente;
 
     @OneToMany(mappedBy = "pedido")

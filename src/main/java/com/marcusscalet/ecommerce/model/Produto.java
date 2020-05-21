@@ -17,7 +17,7 @@ import java.util.List;
         indexes = {@Index (name = "idx_nome", columnList = "nome")})
 public class Produto extends EntidadeBaseInteger{
 
-	@Column(name = "dataCriacao", nullable = false, updatable = false)
+	@Column(name = "data_criacao", nullable = false, updatable = false)
 	private LocalDateTime dataCriacao;
 
 	@Column(name = "data_ultima_atualizacao", insertable = false)
@@ -37,8 +37,10 @@ public class Produto extends EntidadeBaseInteger{
     @ManyToMany
     @JoinTable(
     		name="produto_categoria",
-    		joinColumns = @JoinColumn(name = "produto_id"),
-    		inverseJoinColumns = @JoinColumn(name = "categoria_id"))
+    		joinColumns = @JoinColumn(name = "produto_id", nullable = false,
+            foreignKey = @ForeignKey(name = "fk_produto_categoria_produto")),
+    		inverseJoinColumns = @JoinColumn(name = "categoria_id", nullable = false,
+                    foreignKey = @ForeignKey(name = "fk_produto_categoria_categoria")))
     private List<Categoria> categorias;
 
     @OneToOne(mappedBy = "produto")
