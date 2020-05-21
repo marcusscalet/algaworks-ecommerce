@@ -11,6 +11,7 @@
             <property name="javax.persistence.jdbc.password" value="admin" />
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
 
+            <!--
             <property name="javax.persistence.schema-generation.database.action"
                       value="drop-and-create"/>
 
@@ -33,6 +34,7 @@
                       value="C:/tmp/sql/scrip-criacao-exportado.sql"/>
             <property name="javax.persistence.schema-generation.scripts.drop-target"
                       value="C:/tmp/sql/scrip-remocao-exportado.sql"/>
+            -->
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect" />
 

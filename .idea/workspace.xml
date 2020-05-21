@@ -54,12 +54,38 @@
       <recent name="C:\eclipse-workspace\algaworks-ecommerce\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DDLTest">
+  <component name="RunManager" selected="Application.ExecutarDDL">
+    <configuration name="ExecutarDDL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.util.ExecutarDDL" />
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marcusscalet.ecommerce.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExportarDDL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.util.ExportarDDL" />
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marcusscalet.ecommerce.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DDLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marcusscalet.ecommerce.ddl.*" />
+          <option name="PATTERN" value="com.marcusscalet.ecommerce.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,7 +100,7 @@
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marcusscalet.ecommerce.ddl.*" />
+          <option name="PATTERN" value="com.marcusscalet.ecommerce.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,30 +112,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlushTest,chamarFlush and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.marcusscalet.ecommerce.ddl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="com.marcusscalet.ecommerce.conhecendoentitymanager.FlushTest,chamarFlush" />
-        <pattern testClass="com.marcusscalet.ecommerce.relacionamentos.AutoRelacionamentoTest,verificarRelacionamento" />
-        <pattern testClass="com.marcusscalet.ecommerce.relacionamentos.RelacionamentoOneToOneTest,verificarRelacionamento2" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FlushTest.chamarFlush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marcusscalet.ecommerce.ddl.*" />
+          <option name="PATTERN" value="com.marcusscalet.ecommerce.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,20 +129,6 @@
         <pattern testClass="com.marcusscalet.ecommerce.relacionamentos.AutoRelacionamentoTest,verificarRelacionamento" />
         <pattern testClass="com.marcusscalet.ecommerce.relacionamentos.RelacionamentoOneToOneTest,verificarRelacionamento2" />
       </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.marcusscalet.ecommerce in algaworks-ecommerce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.marcusscalet.ecommerce.ddl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,20 +160,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.com.marcusscalet.ecommerce in algaworks-ecommerce" />
       <item itemvalue="JUnit.DDLTest" />
-      <item itemvalue="JUnit.FlushTest,chamarFlush and 2 more" />
       <item itemvalue="JUnit.FlushTest.chamarFlush" />
       <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
       <item itemvalue="JUnit.DDLTest.gerarDDL" />
+      <item itemvalue="Application.ExportarDDL" />
+      <item itemvalue="Application.ExecutarDDL" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutarDDL" />
+        <item itemvalue="Application.ExportarDDL" />
         <item itemvalue="JUnit.DDLTest" />
         <item itemvalue="JUnit.DDLTest.gerarDDL" />
         <item itemvalue="JUnit.FlushTest.chamarFlush" />
-        <item itemvalue="JUnit.FlushTest,chamarFlush and 2 more" />
-        <item itemvalue="JUnit.com.marcusscalet.ecommerce in algaworks-ecommerce" />
       </list>
     </recent_temporary>
   </component>
@@ -249,22 +242,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1588033432347" />
-    <state width="1234" height="215" key="GridCell.Tab.0.bottom" timestamp="1590068880922">
+    <state width="1234" height="100" key="GridCell.Tab.0.bottom" timestamp="1590070829074">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="215" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1590068880922" />
-    <state width="1234" height="215" key="GridCell.Tab.0.center" timestamp="1590068880921">
+    <state width="1234" height="100" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1590070829074" />
+    <state width="1234" height="100" key="GridCell.Tab.0.center" timestamp="1590070829074">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="215" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1590068880921" />
-    <state width="1234" height="215" key="GridCell.Tab.0.left" timestamp="1590068880921">
+    <state width="1234" height="100" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1590070829074" />
+    <state width="1234" height="100" key="GridCell.Tab.0.left" timestamp="1590070829074">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="215" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1590068880921" />
-    <state width="1234" height="215" key="GridCell.Tab.0.right" timestamp="1590068880921">
+    <state width="1234" height="100" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1590070829074" />
+    <state width="1234" height="100" key="GridCell.Tab.0.right" timestamp="1590070829074">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="215" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1590068880921" />
+    <state width="1234" height="100" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1590070829074" />
     <state width="1234" height="346" key="GridCell.Tab.1.bottom" timestamp="1588994425116">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -297,10 +290,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1616" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586213791883" />
-    <state x="1551" y="220" width="737" height="606" key="find.popup" timestamp="1589986853482">
+    <state x="1551" y="220" width="737" height="606" key="find.popup" timestamp="1590069887603">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1551" y="220" width="737" height="606" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1589986853482" />
+    <state x="1551" y="220" width="737" height="606" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1590069887603" />
     <state x="1302" y="219" key="new project wizard" timestamp="1586218682963">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
