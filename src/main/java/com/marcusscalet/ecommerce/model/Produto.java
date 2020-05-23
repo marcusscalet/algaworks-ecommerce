@@ -34,7 +34,7 @@ public class Produto extends EntidadeBaseInteger{
     @Lob
     private byte[] foto;
     
-    @ManyToMany
+    @ManyToMany//(cascade = CascadeType.MERGE)
     @JoinTable(
     		name="produto_categoria",
     		joinColumns = @JoinColumn(name = "produto_id", nullable = false,

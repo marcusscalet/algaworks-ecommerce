@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/operacoesemcascata/CascadeTypePersistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/operacoesemcascata/CascadeTypePersistTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Categoria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/ItemPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/ItemPedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Pedido.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IntelliJ-workspace" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -55,34 +62,8 @@
       <recent name="C:\eclipse-workspace\algaworks-ecommerce\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CascadeTypePersistTest.persistirItemPedidoComPedido">
-    <configuration name="ExecutarDDL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.util.ExecutarDDL" />
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.marcusscalet.ecommerce.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExportarDDL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.util.ExportarDDL" />
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.marcusscalet.ecommerce.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CascadeTypePersistTest.persistirItemPedidoComPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CascadeTypeRemoveTest.removerItemPedidoEPedido">
+    <configuration name="CascadeTypeMergeTest.atualizarProdutoComCategoria" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -91,14 +72,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata.CascadeTypePersistTest" />
-      <option name="METHOD_NAME" value="persistirItemPedidoComPedido" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata.CascadeTypeMergeTest" />
+      <option name="METHOD_NAME" value="atualizarProdutoComCategoria" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CascadeTypePersistTest.persistirPedidoComCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CascadeTypePersistTest.atualizarItemPedidoComPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -108,13 +89,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata" />
       <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata.CascadeTypePersistTest" />
-      <option name="METHOD_NAME" value="persistirPedidoComCliente" />
+      <option name="METHOD_NAME" value="atualizarItemPedidoComPedido" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CascadeTypePersistTest.persistirPedidoComItens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CascadeTypePersistTest.atualizarPedidoComItens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -124,7 +105,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata" />
       <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata.CascadeTypePersistTest" />
-      <option name="METHOD_NAME" value="persistirPedidoComItens" />
+      <option name="METHOD_NAME" value="atualizarPedidoComItens" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CascadeTypeRemoveTest.removerItemPedidoEPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marcusscalet.ecommerce.operacoesemcascata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata.CascadeTypeRemoveTest" />
+      <option name="METHOD_NAME" value="removerItemPedidoEPedido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CascadeTypeRemoveTest.removerPedidoEItens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marcusscalet.ecommerce.operacoesemcascata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata.CascadeTypeRemoveTest" />
+      <option name="METHOD_NAME" value="removerPedidoEItens" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,20 +170,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.CascadeTypePersistTest.atualizarPedidoComItens" />
       <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
-      <item itemvalue="Application.ExportarDDL" />
-      <item itemvalue="Application.ExecutarDDL" />
-      <item itemvalue="JUnit.CascadeTypePersistTest.persistirPedidoComItens" />
-      <item itemvalue="JUnit.CascadeTypePersistTest.persistirPedidoComCliente" />
-      <item itemvalue="JUnit.CascadeTypePersistTest.persistirItemPedidoComPedido" />
+      <item itemvalue="JUnit.CascadeTypePersistTest.atualizarItemPedidoComPedido" />
+      <item itemvalue="JUnit.CascadeTypeMergeTest.atualizarProdutoComCategoria" />
+      <item itemvalue="JUnit.CascadeTypeRemoveTest.removerPedidoEItens" />
+      <item itemvalue="JUnit.CascadeTypeRemoveTest.removerItemPedidoEPedido" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CascadeTypePersistTest.persistirItemPedidoComPedido" />
-        <item itemvalue="JUnit.CascadeTypePersistTest.persistirPedidoComCliente" />
-        <item itemvalue="JUnit.CascadeTypePersistTest.persistirPedidoComItens" />
-        <item itemvalue="Application.ExecutarDDL" />
-        <item itemvalue="Application.ExportarDDL" />
+        <item itemvalue="JUnit.CascadeTypeRemoveTest.removerItemPedidoEPedido" />
+        <item itemvalue="JUnit.CascadeTypeRemoveTest.removerPedidoEItens" />
+        <item itemvalue="JUnit.CascadeTypeMergeTest.atualizarProdutoComCategoria" />
+        <item itemvalue="JUnit.CascadeTypePersistTest.atualizarItemPedidoComPedido" />
+        <item itemvalue="JUnit.CascadeTypePersistTest.atualizarPedidoComItens" />
       </list>
     </recent_temporary>
   </component>
@@ -235,26 +248,26 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1450" y="174" key="DBNavigator.ProjectSettingsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589982491070" />
-    <state x="1700" y="275" key="FileChooserDialogImpl" timestamp="1588033432347">
+    <state x="1700" y="275" key="FileChooserDialogImpl" timestamp="1590170262517">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1588033432347" />
-    <state width="1130" height="461" key="GridCell.Tab.0.bottom" timestamp="1590092116664">
+    <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1590170262517" />
+    <state width="1238" height="286" key="GridCell.Tab.0.bottom" timestamp="1590198141155">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1130" height="461" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1590092116664" />
-    <state width="1130" height="461" key="GridCell.Tab.0.center" timestamp="1590092116663">
+    <state width="1238" height="286" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1590198141155" />
+    <state width="1238" height="286" key="GridCell.Tab.0.center" timestamp="1590198141155">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1130" height="461" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1590092116663" />
-    <state width="1130" height="461" key="GridCell.Tab.0.left" timestamp="1590092116663">
+    <state width="1238" height="286" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1590198141155" />
+    <state width="1238" height="286" key="GridCell.Tab.0.left" timestamp="1590198141155">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1130" height="461" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1590092116663" />
-    <state width="1130" height="461" key="GridCell.Tab.0.right" timestamp="1590092116663">
+    <state width="1238" height="286" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1590198141155" />
+    <state width="1238" height="286" key="GridCell.Tab.0.right" timestamp="1590198141155">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1130" height="461" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1590092116663" />
+    <state width="1238" height="286" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1590198141155" />
     <state width="1234" height="346" key="GridCell.Tab.1.bottom" timestamp="1588994425116">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -287,14 +300,14 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1616" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586213791883" />
-    <state x="1551" y="220" width="737" height="606" key="find.popup" timestamp="1590069887603">
+    <state x="1551" y="220" width="737" height="606" key="find.popup" timestamp="1590092948001">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1551" y="220" width="737" height="606" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1590069887603" />
-    <state x="1302" y="219" key="new project wizard" timestamp="1586218682963">
+    <state x="1551" y="220" width="737" height="606" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1590092948001" />
+    <state x="1302" y="219" key="new project wizard" timestamp="1590170245319">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1302" y="219" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1586218682963" />
+    <state x="1302" y="219" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1590170245319" />
     <state x="1626" y="142" key="refactoring.ChangeSignatureDialog" timestamp="1589502131960">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

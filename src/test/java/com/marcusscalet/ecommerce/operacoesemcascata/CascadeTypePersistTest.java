@@ -3,7 +3,6 @@ package com.marcusscalet.ecommerce.operacoesemcascata;
 import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;
 import com.marcusscalet.ecommerce.model.*;
 import org.junit.Assert;
-import org.junit.Test;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -40,11 +39,11 @@ public class CascadeTypePersistTest extends EntityManagerTest {
 
         Pedido pedidoVerificacao = entityManager.find(Pedido.class, pedido.getId());
 
-        Assert.assertNotNull(pedido);
-        Assert.assertFalse(pedido.getItens().isEmpty());
+        Assert.assertNotNull(pedidoVerificacao);
+        Assert.assertFalse(pedidoVerificacao.getItens().isEmpty());
     }
 
-    @Test
+    //@Test
     public void persistirItemPedidoComPedido(){
         Cliente cliente = entityManager.find(Cliente.class,1);
         Produto produto = entityManager.find(Produto.class, 1);
@@ -70,7 +69,7 @@ public class CascadeTypePersistTest extends EntityManagerTest {
 
         Pedido pedidoVerificacao = entityManager.find(Pedido.class, pedido.getId());
 
-        Assert.assertNotNull(pedido);
+        Assert.assertNotNull(pedidoVerificacao);
     }
 
 //    @Test
@@ -97,4 +96,33 @@ public class CascadeTypePersistTest extends EntityManagerTest {
 
         Assert.assertNotNull(cliente);
     }
+
+        //@Test
+        public void persistirProdutoComCategoria(){
+
+        Categoria categoria = new Categoria();
+        categoria.setNome("Cama, Mesa e Banho");
+
+        Produto produto = new Produto();
+        produto.setNome("Edredom casal Santista");
+        produto.setDescricao("O mais confortável");
+        produto.setPreco(BigDecimal.ONE);
+        produto.setDataCriacao(LocalDateTime.now());
+        produto.setDataUltimaAtualizacao(LocalDateTime.now());
+        produto.setCategorias(Arrays.asList(categoria));  //CascadeType.PERSIST
+
+        entityManager.getTransaction().begin();
+        entityManager.persist(produto);
+        entityManager.getTransaction().commit();
+
+        entityManager.clear();
+
+        Produto produtoVerificacao = entityManager.find(Produto.class, produto.getId());
+        Categoria categoriaVerificacao = entityManager.find(Categoria.class, categoria.getId());
+
+        Assert.assertNotNull(produtoVerificacao);
+        Assert.assertNotNull(categoriaVerificacao);
+    }
+
+
 }

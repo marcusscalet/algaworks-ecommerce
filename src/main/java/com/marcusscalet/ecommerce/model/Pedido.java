@@ -22,7 +22,7 @@ public class Pedido extends EntidadeBaseInteger{
             foreignKey = @ForeignKey(name = "fk_pedido_cliente"))
     private Cliente cliente;
 
-    @OneToMany(mappedBy = "pedido")
+    @OneToMany(mappedBy = "pedido")//, cascade = CascadeType.MERGE)
     private List<ItemPedido> itens;
 
     @Column(name = "data_criacao", nullable = false, updatable = false)
@@ -57,8 +57,11 @@ public class Pedido extends EntidadeBaseInteger{
     public void calcularTotal(){
         if(itens != null){
             /* transformando a lista de itens em uma lista de BigDecimal */
-            total = itens.stream().map(ItemPedido::getPrecoProduto)
-                    .reduce(BigDecimal.ZERO, BigDecimal::add); /* somatória de todos os valores da lista gerada */
+            total = itens.stream().map(
+                    i -> new BigDecimal(i.getQuantidade()).multiply(i.getPrecoProduto()))
+                    .reduce(BigDecimal.ZERO, BigDecimal::add); /* soma valores e multipl por quantidade da lista gerada */
+        } else {
+            total = BigDecimal.ZERO;
         }
     }
 
