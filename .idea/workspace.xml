@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/model/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/operacoesemcascata/CascadeTypeRemoveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/operacoesemcascata/CascadeTypeRemoveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/ItemPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/ItemPedido.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Pedido.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,18 +53,18 @@
       <recent name="C:\eclipse-workspace\algaworks-ecommerce\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CascadeTypeRemoveTest.removerItensOrfaos">
-    <configuration name="CascadeTypeMergeTest.atualizarProdutoComCategoria" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BasicoJPQLTest.buscarPorIdentificador">
+    <configuration name="BasicoJPQLTest.buscarPorIdentificador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marcusscalet.ecommerce.operacoesemcascata.*" />
+          <option name="PATTERN" value="JPQLTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata.CascadeTypeMergeTest" />
-      <option name="METHOD_NAME" value="atualizarProdutoComCategoria" />
+      <option name="PACKAGE_NAME" value="JPQLTest" />
+      <option name="MAIN_CLASS_NAME" value="JPQLTest.BasicoJPQLTest" />
+      <option name="METHOD_NAME" value="buscarPorIdentificador" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,20 +161,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
-      <item itemvalue="JUnit.CascadeTypeMergeTest.atualizarProdutoComCategoria" />
       <item itemvalue="JUnit.CascadeTypeRemoveTest.removerPedidoEItens" />
       <item itemvalue="JUnit.CascadeTypeRemoveTest.removerItemPedidoEPedido" />
       <item itemvalue="JUnit.CascadeTypeRemoveTest.removerRelacaoProdutoCategoria" />
       <item itemvalue="JUnit.CascadeTypeRemoveTest.removerItensOrfaos" />
+      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
+      <item itemvalue="JUnit.BasicoJPQLTest.buscarPorIdentificador" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BasicoJPQLTest.buscarPorIdentificador" />
         <item itemvalue="JUnit.CascadeTypeRemoveTest.removerItensOrfaos" />
         <item itemvalue="JUnit.CascadeTypeRemoveTest.removerRelacaoProdutoCategoria" />
         <item itemvalue="JUnit.CascadeTypeRemoveTest.removerItemPedidoEPedido" />
         <item itemvalue="JUnit.CascadeTypeRemoveTest.removerPedidoEItens" />
-        <item itemvalue="JUnit.CascadeTypeMergeTest.atualizarProdutoComCategoria" />
       </list>
     </recent_temporary>
   </component>
@@ -248,22 +243,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1590170262517" />
-    <state width="1172" height="284" key="GridCell.Tab.0.bottom" timestamp="1590200371649">
+    <state width="1172" height="284" key="GridCell.Tab.0.bottom" timestamp="1590200953049">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1172" height="284" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1590200371649" />
-    <state width="1172" height="284" key="GridCell.Tab.0.center" timestamp="1590200371649">
+    <state width="1172" height="284" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1590200953049" />
+    <state width="1172" height="284" key="GridCell.Tab.0.center" timestamp="1590200953049">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1172" height="284" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1590200371649" />
-    <state width="1172" height="284" key="GridCell.Tab.0.left" timestamp="1590200371649">
+    <state width="1172" height="284" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1590200953049" />
+    <state width="1172" height="284" key="GridCell.Tab.0.left" timestamp="1590200953049">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1172" height="284" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1590200371649" />
-    <state width="1172" height="284" key="GridCell.Tab.0.right" timestamp="1590200371649">
+    <state width="1172" height="284" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1590200953049" />
+    <state width="1172" height="284" key="GridCell.Tab.0.right" timestamp="1590200953049">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1172" height="284" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1590200371649" />
+    <state width="1172" height="284" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1590200953049" />
     <state width="1234" height="346" key="GridCell.Tab.1.bottom" timestamp="1588994425116">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -312,9 +307,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1576" y="244" width="672" height="677" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1589978283088" />
-    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1590067313145">
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1590276827469">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1590067313145" />
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1590276827469" />
   </component>
 </project>
