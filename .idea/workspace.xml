@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JPQLTest/BasicoJPQLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JPQLTest/BasicoJPQLTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <recent name="C:\eclipse-workspace\algaworks-ecommerce\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BasicoJPQLTest.buscarPorIdentificador">
+  <component name="RunManager" selected="JUnit.BasicoJPQLTest.selecionarUmAtributoParaRetorno">
     <configuration name="BasicoJPQLTest.buscarPorIdentificador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -70,17 +71,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CascadeTypeRemoveTest.removerItemPedidoEPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicoJPQLTest.mostrarDiferencaQueries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marcusscalet.ecommerce.operacoesemcascata.*" />
+          <option name="PATTERN" value="JPQLTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata.CascadeTypeRemoveTest" />
-      <option name="METHOD_NAME" value="removerItemPedidoEPedido" />
+      <option name="PACKAGE_NAME" value="JPQLTest" />
+      <option name="MAIN_CLASS_NAME" value="JPQLTest.BasicoJPQLTest" />
+      <option name="METHOD_NAME" value="mostrarDiferencaQueries" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicoJPQLTest.selecionarUmAtributoParaRetorno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JPQLTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JPQLTest" />
+      <option name="MAIN_CLASS_NAME" value="JPQLTest.BasicoJPQLTest" />
+      <option name="METHOD_NAME" value="selecionarUmAtributoParaRetorno" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,22 +114,6 @@
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata" />
       <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata.CascadeTypeRemoveTest" />
       <option name="METHOD_NAME" value="removerItensOrfaos" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CascadeTypeRemoveTest.removerPedidoEItens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.marcusscalet.ecommerce.operacoesemcascata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.operacoesemcascata.CascadeTypeRemoveTest" />
-      <option name="METHOD_NAME" value="removerPedidoEItens" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,20 +162,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CascadeTypeRemoveTest.removerPedidoEItens" />
-      <item itemvalue="JUnit.CascadeTypeRemoveTest.removerItemPedidoEPedido" />
       <item itemvalue="JUnit.CascadeTypeRemoveTest.removerRelacaoProdutoCategoria" />
       <item itemvalue="JUnit.CascadeTypeRemoveTest.removerItensOrfaos" />
-      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
       <item itemvalue="JUnit.BasicoJPQLTest.buscarPorIdentificador" />
+      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
+      <item itemvalue="JUnit.BasicoJPQLTest.mostrarDiferencaQueries" />
+      <item itemvalue="JUnit.BasicoJPQLTest.selecionarUmAtributoParaRetorno" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BasicoJPQLTest.selecionarUmAtributoParaRetorno" />
+        <item itemvalue="JUnit.BasicoJPQLTest.mostrarDiferencaQueries" />
         <item itemvalue="JUnit.BasicoJPQLTest.buscarPorIdentificador" />
         <item itemvalue="JUnit.CascadeTypeRemoveTest.removerItensOrfaos" />
         <item itemvalue="JUnit.CascadeTypeRemoveTest.removerRelacaoProdutoCategoria" />
-        <item itemvalue="JUnit.CascadeTypeRemoveTest.removerItemPedidoEPedido" />
-        <item itemvalue="JUnit.CascadeTypeRemoveTest.removerPedidoEItens" />
       </list>
     </recent_temporary>
   </component>
@@ -243,22 +244,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1590170262517" />
-    <state width="1172" height="284" key="GridCell.Tab.0.bottom" timestamp="1590200953049">
+    <state width="1234" height="284" key="GridCell.Tab.0.bottom" timestamp="1590327534695">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1172" height="284" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1590200953049" />
-    <state width="1172" height="284" key="GridCell.Tab.0.center" timestamp="1590200953049">
+    <state width="1234" height="284" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1590327534695" />
+    <state width="1234" height="284" key="GridCell.Tab.0.center" timestamp="1590327534695">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1172" height="284" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1590200953049" />
-    <state width="1172" height="284" key="GridCell.Tab.0.left" timestamp="1590200953049">
+    <state width="1234" height="284" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1590327534695" />
+    <state width="1234" height="284" key="GridCell.Tab.0.left" timestamp="1590327534695">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1172" height="284" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1590200953049" />
-    <state width="1172" height="284" key="GridCell.Tab.0.right" timestamp="1590200953049">
+    <state width="1234" height="284" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1590327534695" />
+    <state width="1234" height="284" key="GridCell.Tab.0.right" timestamp="1590327534695">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1172" height="284" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1590200953049" />
+    <state width="1234" height="284" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1590327534695" />
     <state width="1234" height="346" key="GridCell.Tab.1.bottom" timestamp="1588994425116">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
