@@ -1,4 +1,4 @@
-package JPQLTest;
+package jpql;
 
 import com.marcusscalet.ecommerce.dto.ProdutoDTO;
 import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;

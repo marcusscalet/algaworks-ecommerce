@@ -15,8 +15,4 @@ public class ProdutoDTO {
 
     private String nome;
 
-//    public ProdutoDTO(Integer id, String nome){
-//        this.id = id;
-//        this.nome = nome;
-//    }
 }

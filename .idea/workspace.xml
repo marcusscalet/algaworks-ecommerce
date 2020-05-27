@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/jpql/JoinTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JPQLTest/BasicoJPQLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JPQLTest/BasicoJPQLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/dto/ProdutoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/dto/ProdutoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JPQLTest/BasicoJPQLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jpql/BasicoJPQLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,82 +58,81 @@
       <recent name="C:\eclipse-workspace\algaworks-ecommerce\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BasicoJPQLTest.projetarNoDTO">
-    <configuration name="BasicoJPQLTest.buscarPorIdentificador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JPQLTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JPQLTest" />
-      <option name="MAIN_CLASS_NAME" value="JPQLTest.BasicoJPQLTest" />
-      <option name="METHOD_NAME" value="buscarPorIdentificador" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BasicoJPQLTest.mostrarDiferencaQueries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JPQLTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JPQLTest" />
-      <option name="MAIN_CLASS_NAME" value="JPQLTest.BasicoJPQLTest" />
-      <option name="METHOD_NAME" value="mostrarDiferencaQueries" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JoinTest.leftJoin">
     <configuration name="BasicoJPQLTest.projetarNoDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JPQLTest.*" />
+          <option name="PATTERN" value="jpql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JPQLTest" />
-      <option name="MAIN_CLASS_NAME" value="JPQLTest.BasicoJPQLTest" />
+      <option name="PACKAGE_NAME" value="jpql" />
+      <option name="MAIN_CLASS_NAME" value="jpql.BasicoJPQLTest" />
       <option name="METHOD_NAME" value="projetarNoDTO" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicoJPQLTest.projetarResultado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JoinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JPQLTest.*" />
+          <option name="PATTERN" value="jpql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JPQLTest" />
-      <option name="MAIN_CLASS_NAME" value="JPQLTest.BasicoJPQLTest" />
-      <option name="METHOD_NAME" value="projetarResultado" />
+      <option name="PACKAGE_NAME" value="jpql" />
+      <option name="MAIN_CLASS_NAME" value="jpql.JoinTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinTest.fazerJoin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpql" />
+      <option name="MAIN_CLASS_NAME" value="jpql.JoinTest" />
+      <option name="METHOD_NAME" value="fazerJoin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicoJPQLTest.selecionarUmAtributoParaRetorno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JoinTest.joinComProjecao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JPQLTest.*" />
+          <option name="PATTERN" value="jpql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JPQLTest" />
-      <option name="MAIN_CLASS_NAME" value="JPQLTest.BasicoJPQLTest" />
-      <option name="METHOD_NAME" value="selecionarUmAtributoParaRetorno" />
+      <option name="PACKAGE_NAME" value="jpql" />
+      <option name="MAIN_CLASS_NAME" value="jpql.JoinTest" />
+      <option name="METHOD_NAME" value="joinComProjecao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinTest.leftJoin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpql" />
+      <option name="MAIN_CLASS_NAME" value="jpql.JoinTest" />
+      <option name="METHOD_NAME" value="leftJoin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,20 +165,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.BasicoJPQLTest.buscarPorIdentificador" />
-      <item itemvalue="JUnit.BasicoJPQLTest.mostrarDiferencaQueries" />
-      <item itemvalue="JUnit.BasicoJPQLTest.selecionarUmAtributoParaRetorno" />
-      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
-      <item itemvalue="JUnit.BasicoJPQLTest.projetarResultado" />
       <item itemvalue="JUnit.BasicoJPQLTest.projetarNoDTO" />
+      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
+      <item itemvalue="JUnit.JoinTest.fazerJoin" />
+      <item itemvalue="JUnit.JoinTest.joinComProjecao" />
+      <item itemvalue="JUnit.JoinTest" />
+      <item itemvalue="JUnit.JoinTest.leftJoin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JoinTest.leftJoin" />
+        <item itemvalue="JUnit.JoinTest" />
+        <item itemvalue="JUnit.JoinTest.joinComProjecao" />
+        <item itemvalue="JUnit.JoinTest.fazerJoin" />
         <item itemvalue="JUnit.BasicoJPQLTest.projetarNoDTO" />
-        <item itemvalue="JUnit.BasicoJPQLTest.projetarResultado" />
-        <item itemvalue="JUnit.BasicoJPQLTest.selecionarUmAtributoParaRetorno" />
-        <item itemvalue="JUnit.BasicoJPQLTest.mostrarDiferencaQueries" />
-        <item itemvalue="JUnit.BasicoJPQLTest.buscarPorIdentificador" />
       </list>
     </recent_temporary>
   </component>
@@ -244,22 +247,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1590170262517" />
-    <state width="1234" height="274" key="GridCell.Tab.0.bottom" timestamp="1590450801679">
+    <state width="1234" height="276" key="GridCell.Tab.0.bottom" timestamp="1590540821058">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1590450801679" />
-    <state width="1234" height="274" key="GridCell.Tab.0.center" timestamp="1590450801678">
+    <state width="1234" height="276" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1590540821058" />
+    <state width="1234" height="276" key="GridCell.Tab.0.center" timestamp="1590540821058">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="274" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1590450801678" />
-    <state width="1234" height="274" key="GridCell.Tab.0.left" timestamp="1590450801678">
+    <state width="1234" height="276" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1590540821058" />
+    <state width="1234" height="276" key="GridCell.Tab.0.left" timestamp="1590540821057">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="274" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1590450801678" />
-    <state width="1234" height="274" key="GridCell.Tab.0.right" timestamp="1590450801678">
+    <state width="1234" height="276" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1590540821057" />
+    <state width="1234" height="276" key="GridCell.Tab.0.right" timestamp="1590540821058">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="274" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1590450801678" />
+    <state width="1234" height="276" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1590540821058" />
     <state width="1234" height="346" key="GridCell.Tab.1.bottom" timestamp="1588994425116">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
