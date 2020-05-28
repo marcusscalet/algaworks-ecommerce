@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/jpql/JoinTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/dto/ProdutoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcusscalet/ecommerce/dto/ProdutoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JPQLTest/BasicoJPQLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jpql/BasicoJPQLTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jpql/JoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jpql/JoinTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +54,7 @@
       <recent name="C:\eclipse-workspace\algaworks-ecommerce\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JoinTest.leftJoin">
-    <configuration name="BasicoJPQLTest.projetarNoDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jpql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jpql" />
-      <option name="MAIN_CLASS_NAME" value="jpql.BasicoJPQLTest" />
-      <option name="METHOD_NAME" value="projetarNoDTO" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JoinTest.joinFetch">
     <configuration name="JoinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -117,6 +97,22 @@
       <option name="PACKAGE_NAME" value="jpql" />
       <option name="MAIN_CLASS_NAME" value="jpql.JoinTest" />
       <option name="METHOD_NAME" value="joinComProjecao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinTest.joinFetch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpql" />
+      <option name="MAIN_CLASS_NAME" value="jpql.JoinTest" />
+      <option name="METHOD_NAME" value="joinFetch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,20 +161,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.BasicoJPQLTest.projetarNoDTO" />
-      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
       <item itemvalue="JUnit.JoinTest.fazerJoin" />
       <item itemvalue="JUnit.JoinTest.joinComProjecao" />
       <item itemvalue="JUnit.JoinTest" />
       <item itemvalue="JUnit.JoinTest.leftJoin" />
+      <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
+      <item itemvalue="JUnit.JoinTest.joinFetch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JoinTest.joinFetch" />
         <item itemvalue="JUnit.JoinTest.leftJoin" />
         <item itemvalue="JUnit.JoinTest" />
         <item itemvalue="JUnit.JoinTest.joinComProjecao" />
         <item itemvalue="JUnit.JoinTest.fazerJoin" />
-        <item itemvalue="JUnit.BasicoJPQLTest.projetarNoDTO" />
       </list>
     </recent_temporary>
   </component>

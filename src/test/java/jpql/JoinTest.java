@@ -11,6 +11,18 @@ import java.util.List;
 public class JoinTest extends EntityManagerTest {
 
     @Test
+    public void joinFetch(){
+        String jpql = "select p from Pedido p " +
+                " left join fetch p.pagamento " +
+                " join fetch p.cliente " +
+                " left join fetch p.notaFiscal ";
+
+        TypedQuery<Pedido> typedQuery = entityManager.createQuery(jpql, Pedido.class);
+
+        List<Pedido> lista = typedQuery.getResultList();
+        Assert.assertFalse(lista.isEmpty());
+    }
+    @Test
     public void leftJoin(){
 //        Left Join = todos registros da tabela ao lado esquerdo que possui correspondência com lado direito,
 //        mas também todos os registros que estão do lado esquerdo que não possuo correspondência com o lado direito
