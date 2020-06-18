@@ -1,4 +1,4 @@
-package jpql;
+package com.marcusscalet.ecommerce.jpql;
 
 import com.marcusscalet.ecommerce.dto.ProdutoDTO;
 import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;

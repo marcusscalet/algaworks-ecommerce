@@ -1,21 +1,29 @@
-package jpql;
+package com.marcusscalet.ecommerce.jpql;
 
-import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;
-import com.marcusscalet.ecommerce.model.Pedido;
+import java.util.List;
+
+import javax.persistence.TypedQuery;
+
 import org.junit.Assert;
 import org.junit.Test;
 
-import javax.persistence.TypedQuery;
-import java.util.List;
+import com.marcusscalet.ecommerce.entitymanager.EntityManagerTest;
+import com.marcusscalet.ecommerce.model.Pedido;
 
 public class JoinTest extends EntityManagerTest {
 
     @Test
     public void joinFetch(){
+    	
+        //String jpqlSemFetch = "select p from Pedido p ";
+    	
+        //fazendo uso do join fetch desta forma, fazemos tudo em uma consulta e
+    	//contornamos o problema do n+1
         String jpql = "select p from Pedido p " +
                 " left join fetch p.pagamento " +
                 " join fetch p.cliente " +
                 " left join fetch p.notaFiscal ";
+        
 
         TypedQuery<Pedido> typedQuery = entityManager.createQuery(jpql, Pedido.class);
 
@@ -28,8 +36,6 @@ public class JoinTest extends EntityManagerTest {
 //        mas também todos os registros que estão do lado esquerdo que não possuo correspondência com o lado direito
 
         String jpql = "select p from Pedido p left outer join p.pagamento pag on pag.status = 'PROCESSANDO'";
-
-//        String jpql2 = "select p from Pedido p left outer join p.pagamento pag where pag.status = 'PROCESSANDO'";
 
         TypedQuery<Pedido> typedQuery = entityManager.createQuery(jpql, Pedido.class);
 
