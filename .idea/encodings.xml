@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/iniciandocomjpa/PrimeiroCrudTest.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/jpql/ExpressoesCondicionaisTest.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/relacionamentos/AutoRelacionamentoTest.java" charset="windows-1252" />
   </component>
 </project>
