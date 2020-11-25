@@ -10,7 +10,7 @@ import java.util.List;
 public class FuncoesTest extends EntityManagerTest {
 
     @Test
-    public void aplicarFuncaoAgraegacao(){
+    public void aplicarFuncaoAgregacao(){
 
         String jpql = "select max(p.total) from Pedido p";
 

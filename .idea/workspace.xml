@@ -3,8 +3,48 @@
   <component name="ChangeListManager">
     <list default="true" id="490558ad-4919-451a-93ac-788302dcf133" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/script-criacao.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/script-criacao.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/script-remocao.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/script-remocao.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/jpql/FuncoesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/marcusscalet/ecommerce/jpql/FuncoesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/listener/GenericoListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/listener/GenericoListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/listener/GerarNotaFiscalListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/listener/GerarNotaFiscalListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Atributo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Atributo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Categoria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/EnderecoEntregaPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/EnderecoEntregaPedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Estoque.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Estoque.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/ItemPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/ItemPedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/ItemPedidoId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/ItemPedidoId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/NotaFiscal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/NotaFiscal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/PagamentoBoleto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/PagamentoBoleto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/PagamentoCartao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/PagamentoCartao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Pedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/SexoCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/SexoCliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/StatusPagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/StatusPagamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/StatusPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/model/StatusPedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/service/NotaFiscalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/service/NotaFiscalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/util/IniciarUnidadeDePersistencia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcusscalet/ecommerce/util/IniciarUnidadeDePersistencia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/conhecendoentitymanager/CachePrimeiroNivelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/conhecendoentitymanager/CachePrimeiroNivelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/conhecendoentitymanager/CallBackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/conhecendoentitymanager/CallBackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/conhecendoentitymanager/ContextoDePersistencia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/conhecendoentitymanager/ContextoDePersistencia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/conhecendoentitymanager/FlushTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/conhecendoentitymanager/FlushTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/conhecendoentitymanager/ListenersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/conhecendoentitymanager/ListenersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/entitymanager/EntityManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/entitymanager/EntityManagerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentoavancado/ChaveCompostaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentoavancado/ChaveCompostaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentoavancado/DetalhesColumnTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentoavancado/DetalhesColumnTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentoavancado/ElementCollectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentoavancado/ElementCollectionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentoavancado/MapsIdTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentoavancado/MapsIdTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentoavancado/PropriedadesTransientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentoavancado/PropriedadesTransientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentobasico/EstrategiaChavePrimariaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentobasico/EstrategiaChavePrimariaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentobasico/MapeamentoObjetoEmbutidoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentobasico/MapeamentoObjetoEmbutidoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentobasico/MapeandoEnumeracoesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/mapeamentobasico/MapeandoEnumeracoesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/relacionamentos/AutoRelacionamentoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/relacionamentos/AutoRelacionamentoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/relacionamentos/RelacionamentoManyToMany.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/relacionamentos/RelacionamentoManyToMany.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/relacionamentos/RelacionamentoManyToOneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/relacionamentos/RelacionamentoManyToOneTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/relacionamentos/RelacionamentoOneToManyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/relacionamentos/RelacionamentoOneToManyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/relacionamentos/RelacionamentoOneToOneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/relacionamentos/RelacionamentoOneToOneTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/relacionamentos/RemoverEntidadeReferenciada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/marcusscalet/ecommerce/relacionamentos/RemoverEntidadeReferenciada.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +95,8 @@
       <recent name="C:\eclipse-workspace\algaworks-ecommerce\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FuncoesTest.aplicarFuncaoAgraegacao">
-    <configuration name="FuncoesTest.aplicarFuncaoAgraegacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GroupByTest.agruparEFiltrarResultado">
+    <configuration name="BasicoJPQLTest.projetarNoDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -65,14 +105,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.jpql.FuncoesTest" />
-      <option name="METHOD_NAME" value="aplicarFuncaoAgraegacao" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.jpql.BasicoJPQLTest" />
+      <option name="METHOD_NAME" value="projetarNoDTO" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncoesTest.aplicarFuncaoColecao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupByTest.agruparEFiltrarResultado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -81,14 +121,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.jpql.FuncoesTest" />
-      <option name="METHOD_NAME" value="aplicarFuncaoColecao" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.jpql.GroupByTest" />
+      <option name="METHOD_NAME" value="agruparEFiltrarResultado" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncoesTest.aplicarFuncaoData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupByTest.agruparResultado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -97,14 +137,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.jpql.FuncoesTest" />
-      <option name="METHOD_NAME" value="aplicarFuncaoData" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.jpql.GroupByTest" />
+      <option name="METHOD_NAME" value="agruparResultado" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncoesTest.aplicarFuncaoNativa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupByTest.agruparResultadoPorCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -113,14 +153,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.jpql.FuncoesTest" />
-      <option name="METHOD_NAME" value="aplicarFuncaoNativa" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.jpql.GroupByTest" />
+      <option name="METHOD_NAME" value="agruparResultadoPorCliente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncoesTest.aplicarFuncaoNumero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupByTest.agruparResultadoPorDiaCategoria" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +169,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.marcusscalet.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.jpql.FuncoesTest" />
-      <option name="METHOD_NAME" value="aplicarFuncaoNumero" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusscalet.ecommerce.jpql.GroupByTest" />
+      <option name="METHOD_NAME" value="agruparResultadoPorDiaCategoria" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,20 +203,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.BasicoJPQLTest.projetarNoDTO" />
+      <item itemvalue="JUnit.GroupByTest.agruparEFiltrarResultado" />
+      <item itemvalue="JUnit.GroupByTest.agruparResultadoPorCliente" />
+      <item itemvalue="JUnit.GroupByTest.agruparResultadoPorDiaCategoria" />
+      <item itemvalue="JUnit.GroupByTest.agruparResultado" />
       <item itemvalue="Maven.algaworks-ecommerce [clean package]" />
-      <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoData" />
-      <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoNumero" />
-      <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoColecao" />
-      <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoNativa" />
-      <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoAgraegacao" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoAgraegacao" />
-        <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoNativa" />
-        <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoColecao" />
-        <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoNumero" />
-        <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoData" />
+        <item itemvalue="JUnit.GroupByTest.agruparEFiltrarResultado" />
+        <item itemvalue="JUnit.GroupByTest.agruparResultado" />
+        <item itemvalue="JUnit.GroupByTest.agruparResultadoPorCliente" />
+        <item itemvalue="JUnit.GroupByTest.agruparResultadoPorDiaCategoria" />
+        <item itemvalue="JUnit.BasicoJPQLTest.projetarNoDTO" />
       </list>
     </recent_temporary>
   </component>
@@ -205,10 +245,6 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1099" y="163" key="#Plugins/0.0.2560.1040@0.0.2560.1040" timestamp="1592531823032" />
-    <state x="1684" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584916408393">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1684" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1584916408393" />
     <state x="1182" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1592531659241">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -237,22 +273,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1590170262517" />
-    <state width="1234" height="271" key="GridCell.Tab.0.bottom" timestamp="1592616107065">
+    <state width="1234" height="267" key="GridCell.Tab.0.bottom" timestamp="1595196847640">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="271" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1592616107065" />
-    <state width="1234" height="271" key="GridCell.Tab.0.center" timestamp="1592616107065">
+    <state width="1234" height="267" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1595196847640" />
+    <state width="1234" height="267" key="GridCell.Tab.0.center" timestamp="1595196847640">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="271" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1592616107065" />
-    <state width="1234" height="271" key="GridCell.Tab.0.left" timestamp="1592616107065">
+    <state width="1234" height="267" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1595196847640" />
+    <state width="1234" height="267" key="GridCell.Tab.0.left" timestamp="1595196847640">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="271" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1592616107065" />
-    <state width="1234" height="271" key="GridCell.Tab.0.right" timestamp="1592616107065">
+    <state width="1234" height="267" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1595196847640" />
+    <state width="1234" height="267" key="GridCell.Tab.0.right" timestamp="1595196847640">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="271" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1592616107065" />
+    <state width="1234" height="267" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1595196847640" />
     <state width="1234" height="340" key="GridCell.Tab.1.bottom" timestamp="1592579889355">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -281,18 +317,14 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1373" y="100" width="1094" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588033877081" />
-    <state x="1616" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586213791883">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1616" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586213791883" />
     <state x="1551" y="220" width="737" height="606" key="find.popup" timestamp="1592580168445">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1551" y="220" width="737" height="606" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1592580168445" />
-    <state x="1302" y="219" key="new project wizard" timestamp="1590170245319">
+    <state x="1302" y="219" key="new project wizard" timestamp="1593645550470">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1302" y="219" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1590170245319" />
+    <state x="1302" y="219" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1593645550470" />
     <state x="1626" y="142" key="refactoring.ChangeSignatureDialog" timestamp="1589502131960">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
